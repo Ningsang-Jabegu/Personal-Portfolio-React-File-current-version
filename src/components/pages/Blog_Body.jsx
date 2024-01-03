@@ -13,6 +13,34 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Staying-Up-to-Date-as-a-Front-End-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-10.jpg" alt="Staying Up-to-Date as a Front-End Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Thinking</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-03">Jan 3, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Staying Up-to-Date as a Front-End Developer</h3>
+
+                                <p class="blog-text">
+                                In the ever-evolving world of web development, staying up-to-date is not just an advantage, it’s a necessity. As a front-end developer, you’re at the forefront of this digital landscape, crafting user experiences and bringing designs to life. Here are some strategies to help you stay current in this fast-paced field.                                </p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                <li class="blog-post-item">
                         <Link to='/blog/Broadening-Your-Horizons-as-a-Front-End-Web-Developer'>
 
                             <figure class="blog-banner-box">
@@ -23,7 +51,7 @@ export default function Blog_Body() {
                             <div class="blog-content">
 
                                 <div class="blog-meta">
-                                    <p class="blog-category">Explore</p>
+                                    <p class="blog-category">Thinking</p>
 
                                     <span class="dot"></span>
 
