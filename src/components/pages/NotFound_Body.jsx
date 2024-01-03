@@ -6,7 +6,7 @@ export default function NotFound_Body({ setNavTarget }) {
         <article class="about  active" data-page="about">
 
                         <header>
-                            <h2 class="h2 article-title">404 Page Not Found !</h2>
+                            <h2 class="h2 article-title">404 <br />Page Not Found !</h2>
                         </header>
 
                         <section class="about-text">
