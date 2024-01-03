@@ -5,7 +5,7 @@ export default function NotFound_Body({ setNavTarget }) {
     const [email, setEmail] = useState('')
     const [newPage, setNewPage] = useState(`${window.location.href}`)
     const [yourExperties, setYourExperties] = useState('')
-    const [occupation, setOccupation] =  useState('')
+    const [occupation, setOccupation] = useState('')
     const [referrer, setReferrer] = useState('')
     const [message, setMessage] = useState('')
     const [termsAccepted, setTermsAccepted] = useState(false)
@@ -20,19 +20,24 @@ export default function NotFound_Body({ setNavTarget }) {
     const handleSubmit = async (event) => {
         event.preventDefault()
         setIsLoading(true)
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwH8b7dODJ-cPYGUzKqtBmtujoxuTu5HOBwSQXNH_QCX519Bs8wuVbSXgqiyqaURUbdXw/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziGHHzrtVQIVsdrV6k_k95bIdltYF3PJW8WkBDwz9i-HLD4gSnxPJFsI6QJkU6FHdRhQ/exec'
         const formData = new FormData()
+        formData.append('sheet', 'Request For New Webpage')
         formData.append('fullname', fullname)
         formData.append('email', email)
+        formData.append('newpage', newPage)
+        formData.append('occupation', occupation)
+        formData.append('referrer', referrer)
         formData.append('message', message)
-        await fetch(scriptURL, {
-            method: 'POST', body: formData
-        })
-            .then(response => console.log('Success!', response))
+        formData.append('termsAccepted', termsAccepted)
+        await fetch(scriptURL, { method: 'POST', body: formData })
+            .then(response => response.json())  // Extract JSON data from the response
+            .then(data => console.log('Success!', data))  // Log the data
             .catch(error => {
                 console.log('Error', error.message)
                 handleError()
-            })
+            });
+
         setFullname('');
         setEmail('')
         setNewPage('')
@@ -43,7 +48,8 @@ export default function NotFound_Body({ setNavTarget }) {
         setIsSubmitted(true)
         setIsLoading(false)
     }
-    const isFormValid = fullname !== "" && email !== "" && message !== ""
+    const isFormValid = [fullname, email, newPage, occupation, referrer, message, termsAccepted].every(Boolean);
+
     return (
         <article class="notfound  active" data-page="notfound">
 
@@ -83,7 +89,7 @@ export default function NotFound_Body({ setNavTarget }) {
                                 <input type="text" name="occupation" className="form-input" placeholder="Who are you? eg. student, web master" required
                                     data-form-input value={occupation} onChange={e => setOccupation(e.target.value)} />
 
-                                    <input type="text" name="referrer" className="form-input" placeholder="Where did you hear about my portfolio site" required
+                                <input type="text" name="referrer" className="form-input" placeholder="Where did you hear about my portfolio site" required
                                     data-form-input value={referrer} onChange={e => setReferrer(e.target.value)} />
                             </div>
 
@@ -94,7 +100,7 @@ export default function NotFound_Body({ setNavTarget }) {
                                 style={{ width: "20px", height: "20px", display: "inline", marginRight: "1em" }}
                                 data-form-input value={termsAccepted} onChange={e => setTermsAccepted(e.target.value)} />
                             <label for="termsAccepted" style={{ color: "#fff", opacity: "0.7", fontSize: "11pt", lineHeight: "2", marginTop: "1em", display: "inline" }}>By ticking this box, I fully accept all the terms and conditions of this personal portfolio site. I have not requested any webpage that promotes or sells items deemed illegal by the Government of Nepal. I adhere to all the rules and regulations set forth by the Government of Nepal.</label>
-                            <button className="form-btn" type="submit" disabled={!isFormValid} style={{marginTop:".8em"}} data-form-btn>
+                            <button className="form-btn" type="submit" disabled={!isFormValid} style={{ marginTop: ".8em" }} data-form-btn>
                                 <ion-icon name="book"></ion-icon>
                                 <span>Request a Purpose</span>
                             </button>

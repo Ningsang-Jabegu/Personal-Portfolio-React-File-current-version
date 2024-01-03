@@ -13,19 +13,20 @@ export default function Contact_Body() {
     const handleSubmit = async (event) => {
         event.preventDefault()
         setIsLoading(true)
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwH8b7dODJ-cPYGUzKqtBmtujoxuTu5HOBwSQXNH_QCX519Bs8wuVbSXgqiyqaURUbdXw/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziGHHzrtVQIVsdrV6k_k95bIdltYF3PJW8WkBDwz9i-HLD4gSnxPJFsI6QJkU6FHdRhQ/exec'
         const formData = new FormData()
+        formData.append('sheet', 'User Contact Info')
         formData.append('fullname', fullname)
         formData.append('email', email)
         formData.append('message', message)
-        await fetch(scriptURL, {
-            method: 'POST', body: formData
-        })
-            .then(response => console.log('Success!', response))
+        await fetch(scriptURL, { method: 'POST', body: formData })
+            .then(response => response.json())  // Extract JSON data from the response
+            .then(data => console.log('Success!', data))  // Log the data
             .catch(error => {
                 console.log('Error', error.message)
                 handleError()
-            })
+            });
+
         setFullname('');
         setEmail('')
         setMessage('')
