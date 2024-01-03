@@ -6,7 +6,7 @@ export default function NotFound({ setNavTarget }) {
         <main>
             <Slidebar />
             <div className="main-content">
-                <Navbar activeLink='About' />
+                <Navbar activeLink='' />
                 <NotFound_Body />
             </div>
         </main>
