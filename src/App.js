@@ -26,6 +26,7 @@ import InnovationConsultant from './components/pages/experience/InnovationConsul
 import Blog_7 from './components/pages/blogs/Blog_7';
 import Blog_8 from './components/pages/blogs/Blog_8';
 import Blog_9 from './components/pages/blogs/Blog_9';
+import SiteMap from './components/pages/SiteMap';
 
 function App() {
   const [navTarget, setNavTarget] = useState("About");
@@ -56,6 +57,7 @@ function App() {
           <Route path='/resume/experience/FrontEndWebInstructor' element={<FrontEndWebInstructor />}/>
           <Route path='/resume/experience/WebMaster' element={<WebMaster />}/>
           <Route path='/resume/experience/InnovationConsultant' element={<InnovationConsultant />}/>
+          <Route path='/sitemap' element={<SiteMap />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

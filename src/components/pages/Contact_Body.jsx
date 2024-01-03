@@ -24,7 +24,7 @@ export default function Contact_Body() {
             .then(response => console.log('Success!', response))
             .catch(error => {
                 console.log('Error', error.message)
-                setIfErrorOccured(true)
+                handleError()
             })
         setFullname('');
         setEmail('')
