@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
+import Header_Part from "./automate_process/Header_Part";
 
 export default function Resume_Body(){
     return(
         <article className="resume active" data-page="resume">
-
-                <header>
-                    <h2 className="h2 article-title">Resume</h2>
-                </header>
+                <Header_Part txt="Resume"/>
 
                 <section className="timeline">
 
