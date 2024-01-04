@@ -28,6 +28,7 @@ import Blog_8 from './components/pages/blogs/Blog_8';
 import Blog_9 from './components/pages/blogs/Blog_9';
 import SiteMap from './components/pages/SiteMap';
 import Blog_10 from './components/pages/blogs/Blog_10';
+import Blog_11 from './components/pages/blogs/Blog_11';
 
 function App() {
   const [navTarget, setNavTarget] = useState("About");
@@ -48,6 +49,7 @@ function App() {
           <Route path='/blog/Why-Consistency-Matters-in-Becoming-a-Better-Front-End-Developer' element={<Blog_8 />} />
           <Route path='/blog/Broadening-Your-Horizons-as-a-Front-End-Web-Developer' element={<Blog_9 />} />
           <Route path='/blog/Staying-Up-to-Date-as-a-Front-End-Developer' element={<Blog_10 />} />
+          <Route path='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide' element={<Blog_11 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

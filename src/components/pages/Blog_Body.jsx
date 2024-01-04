@@ -13,6 +13,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-10.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Thinking</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-04">Jan 4, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Enhancing Problem-Solving Skills: A Comprehensive Guide</h3>
+
+                                <p class="blog-text">Problem-solving skills are essential in every aspect of life. Whether it’s a complex business scenario or a personal situation, the ability to solve problems effectively and efficiently can make a significant difference. This blog post aims to provide some strategies to enhance your problem-solving skills.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                <li class="blog-post-item">
                         <Link to='/blog/Staying-Up-to-Date-as-a-Front-End-Developer'>
 
                             <figure class="blog-banner-box">
