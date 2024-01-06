@@ -29,6 +29,8 @@ import Blog_9 from './components/pages/blogs/Blog_9';
 import SiteMap from './components/pages/SiteMap';
 import Blog_10 from './components/pages/blogs/Blog_10';
 import Blog_11 from './components/pages/blogs/Blog_11';
+import Blog_12 from './components/pages/blogs/Blog_12';
+import Blog_13 from './components/pages/blogs/Blog_13';
 
 function App() {
   const [navTarget, setNavTarget] = useState("About");
@@ -50,6 +52,8 @@ function App() {
           <Route path='/blog/Broadening-Your-Horizons-as-a-Front-End-Web-Developer' element={<Blog_9 />} />
           <Route path='/blog/Staying-Up-to-Date-as-a-Front-End-Developer' element={<Blog_10 />} />
           <Route path='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide' element={<Blog_11 />} />
+          <Route path='/blog/Improving-Communication-Skills-as-a-Frontend-Developer' element={<Blog_12 />} />
+          <Route path='/blog/The-Limitations-of-Passive-Learning-as-a-Web-Developer' element={<Blog_13 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

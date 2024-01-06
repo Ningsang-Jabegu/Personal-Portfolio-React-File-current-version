@@ -13,6 +13,60 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Limitations-of-Passive-Learning-as-a-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-13.jpg" alt="The Limitations of Passive Learning as a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-06">Jan 6, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Limitations of Passive Learning as a Web Developer</h3>
+
+                                <p class="blog-text">Web development is a dynamic field that requires active engagement and continuous learning. While passive learning methods, such as reading books or watching tutorials, can provide a foundation, they have limitations. This blog post explores the limitations of passive learning in web development and emphasizes the importance of active learning.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                <li class="blog-post-item">
+                        <Link to='/blog/Improving-Communication-Skills-as-a-Frontend-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-12.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Reflecting</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-05">Jan 5, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Improving Communication Skills as a Frontend Developer</h3>
+
+                                <p class="blog-text">In the world of web development, technical skills are undoubtedly important. However, equally crucial are communication skills, especially for frontend developers who often interact directly with clients, designers, and other stakeholders. This blog post will provide some strategies to enhance your communication skills as a frontend developer.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                <li class="blog-post-item">
                         <Link to='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide'>
 
                             <figure class="blog-banner-box">
