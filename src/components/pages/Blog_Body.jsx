@@ -16,7 +16,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide'>
 
                             <figure class="blog-banner-box">
-                                <img src="./assets/images/blog/blog-10.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                <img src="./assets/images/blog/blog-11.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
                                     loading="lazy" />
                             </figure>
 

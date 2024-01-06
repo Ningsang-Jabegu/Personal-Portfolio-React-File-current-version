@@ -19,14 +19,14 @@ export default function Blog_11() {
 
                                 <span className="dot"></span>
 
-                                <time datetime="2024-01-04">Jan 4, 2024</time>
+                                <time datetime="2024-01-05">Jan 5, 2024</time>
                                 <span className="dot"></span>
 
                                 <p className="author">Ningsang Jabegu</p>
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-11.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                <img src="/assets/images/blog/blog-10.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
                                     loading="lazy" />
                             </figure>
 
