@@ -10,7 +10,7 @@ export default function Header_Part({txt}) {
         }
         console.log(text)
     } else{
-        text = txt
+        text.push(txt)
     }
     return (
         <header>

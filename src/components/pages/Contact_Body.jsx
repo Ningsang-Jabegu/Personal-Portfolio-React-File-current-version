@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Header_Part from "./automate_process/Header_Part"
+import HEADER_PART from "./automate_process/HEADER_PART"
 export default function Contact_Body() {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')
@@ -38,7 +38,7 @@ export default function Contact_Body() {
     return (
         <article className="contact active" data-page="contact">
 
-            <Header_Part txt="Contact" />
+            <HEADER_PART txt="Contact" />
 
             <section className="mapbox" data-mapbox>
                 <figure>

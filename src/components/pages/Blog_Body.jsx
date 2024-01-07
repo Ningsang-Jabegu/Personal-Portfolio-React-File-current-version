@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import Header_Part from "./automate_process/Header_Part";
+import HEADER_PART from "./automate_process/HEADER_PART";
 
 export default function Blog_Body() {
     return (
         <article class="blog active" data-page="blog">
 
-            <Header_Part txt="Blog" />
+            <HEADER_PART txt="Blog" />
 
             <section class="blog-posts">
 

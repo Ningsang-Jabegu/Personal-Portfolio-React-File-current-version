@@ -4,7 +4,7 @@ import About_Part from "./automate_process/About_Part"
 import Service_Part from "./automate_process/Service_Part"
 import Testimonial_Part from "./automate_process/Testimonial_Part"
 import Client_Part from "./automate_process/Client_Part"
-import Header_Part from "./automate_process/Header_Part"
+import Header_Part from "./automate_process/HEADER_PART"
 export default function About({ setNavTarget }) {
     return (
         <main>

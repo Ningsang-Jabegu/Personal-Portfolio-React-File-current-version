@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
 export default function Slidebar() {
     const [showDetail, setShowDetail] = useState(false)
     const handleSidebarClick = ()=> {
@@ -12,7 +13,7 @@ export default function Slidebar() {
             <div className="sidebar-info">
 
                 <figure className="avatar-box">
-                    <img src="/assets/images/Profile Picture.PNG" alt="Ningsang Jabegu Profile Picture" width="80" />
+                    <img src="/assets/images/Profile Picture.PNG" alt="Ningsang Jabegu" width="80" />
                 </figure>
 
                 <div class="info-content">
@@ -99,27 +100,27 @@ export default function Slidebar() {
                 <ul className="social-list">
 
                     <li className="social-item">
-                        <a href="https://www.facebook.com/ningsang.jabegu/" target="_blank" className="social-link">
+                        <Link to="https://www.facebook.com/ningsang.jabegu/" target="_blank" rel="noopener noreferrer" className="social-link">
                             <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="social-item">
-                        <a href="https://twitter.com/JabeguNingsang" target="_blank" className="social-link">
+                        <Link to="https://twitter.com/JabeguNingsang" target="_blank" rel="noopener noreferrer" className="social-link">
                             <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="social-item">
-                        <a href="https://www.instagram.com/nh_jabegu/" target="_blank" className="social-link">
+                        <Link to="https://www.instagram.com/nh_jabegu/" target="_blank" rel="noopener noreferrer" className="social-link">
                             <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="social-item" >
-                        <a href="https://www.linkedin.com/in/ningsang-jabegu-45b545216/" target="_blank" className="social-link">
+                        <Link to="https://www.linkedin.com/in/ningsang-jabegu-45b545216/" target="_blank" rel="noopener noreferrer" className="social-link">
                             <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
+                        </Link>
                     </li>
 
                 </ul>

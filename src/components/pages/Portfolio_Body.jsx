@@ -1,5 +1,6 @@
-import { useState } from "react"
-import Header_Part from "./automate_process/Header_Part"
+import { useState, } from "react"
+import { Link } from "react-router-dom"
+import HEADER_PART from "./automate_process/HEADER_PART"
 export default function Portfolio_Body() {
     const [activeFilter, setActiveFilter] = useState('All')
     const [filterSelect, setFilterSelect] = useState(false)
@@ -15,7 +16,7 @@ export default function Portfolio_Body() {
     return (
         <article className="portfolio active" data-page="portfolio">
 
-            <Header_Part txt="Portfolio" />
+            <HEADER_PART txt="Portfolio" />
 
             <section className="projects">
 
@@ -41,7 +42,7 @@ export default function Portfolio_Body() {
 
                 <div className="filter-select-box">
                     {/* "filter-select active" */}
-                    <button className={`filter-select ${filterSelect == true ? "active" : ""}`} onClick={() => { mobileFilterSelect() }} data-select>
+                    <button className={`filter-select ${filterSelect === true ? "active" : ""}`} onClick={() => { mobileFilterSelect() }} data-select>
 
                         <div className="select-value" data-select-value>{!initial ? activeFilter : "Select Category"}</div>
 
@@ -76,7 +77,7 @@ export default function Portfolio_Body() {
                 <ul className="project-list">
 
                     <li className={`project-item ${activeFilter === 'Web Design And Development' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="web design and development">
-                        <a href="https://fastblurpro.com/" target="_blank">
+                        <Link to="https://fastblurpro.com/" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -90,11 +91,11 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Web design and development</p>
 
-                        </a>
+                        </Link>
                     </li>
 
                     <li className={`project-item ${activeFilter === 'Web Design And Development' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="web design and development">
-                        <a href="https://chobegusajumlung.org.np/" target="_blank">
+                        <Link to="https://chobegusajumlung.org.np/" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -108,11 +109,11 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Web design and development</p>
 
-                        </a>
+                        </Link>
                     </li>
 
                     <li className={`project-item ${activeFilter === 'Web Design And Development' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="web design and development">
-                        <a href="https://kamalseling.com.np/" target="_blank">
+                        <Link to="https://kamalseling.com.np/" target="_blank" rel="noopener noreferrer">
 
                             <figure class="project-img">
                                 <div class="project-item-icon-box">
@@ -126,11 +127,11 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Web design and development</p>
 
-                        </a>
+                        </Link>
                     </li>
 
                     <li className={`project-item ${activeFilter === 'Bootcamp' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="bootcamp">
-                        <a href="https://docs.google.com/document/d/15dGTQOiPaFL35tkh5OM9qymEx14qUmdoOJt6rBbKQ4g/edit?usp=sharing" target="_blank">
+                        <Link to="https://docs.google.com/document/d/15dGTQOiPaFL35tkh5OM9qymEx14qUmdoOJt6rBbKQ4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -144,11 +145,11 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Bootcamp</p>
 
-                        </a>
+                        </Link>
                     </li>
 
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-1.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-1.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -162,10 +163,10 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-2.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-2.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -179,10 +180,10 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-3.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-3.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -196,10 +197,10 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-5.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-5.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -213,10 +214,10 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-10.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-10.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -230,10 +231,10 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-11.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-11.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -247,10 +248,10 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <a href="/assets/images/project/project-graphicDesign-12.jpg" target="_blank">
+                        <Link to="/assets/images/project/project-graphicDesign-12.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
@@ -264,7 +265,7 @@ export default function Portfolio_Body() {
 
                             <p className="project-category">Graphic Design</p>
 
-                        </a>
+                        </Link>
                     </li>
                 </ul>
 
