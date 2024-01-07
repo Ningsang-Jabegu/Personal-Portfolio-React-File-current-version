@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { education_data } from "../data/Education_Data"
-export default function Education_Part() {
+export default function EDUCATION_PART() {
     const education_list = education_data.map((edu, index) =>(
         <li className="timeline-item">
 

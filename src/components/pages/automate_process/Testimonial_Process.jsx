@@ -2,7 +2,7 @@
 import { testimonials_Data } from "../data/Testimonial_Data"
 // import About_Body from "../About_Body"
 
-export default function Testimonial_Process({openModel, setOpenModel, modelData, setModelData}) {
+export default function TESTIMONIAL_PROCESS({openModel, setOpenModel, modelData, setModelData}) {
     const handleTestimonialClick = (testimonial_data) => {
         setOpenModel(true)
         setModelData({

@@ -1,5 +1,5 @@
 import { service_Data } from "../data/Service_Data"
-export default function Service_Part() {
+export default function SERVICE_PART() {
     const service_list = service_Data.map((service, index) =>
     (
         <li class="service-item">

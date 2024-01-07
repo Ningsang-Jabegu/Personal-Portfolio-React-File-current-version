@@ -1,7 +1,7 @@
 import { useState } from "react"
 import TESTIMONIAL_PROCESS from "./TESTIMONIAL_PROCESS"
 import TESTIMONIAL_MODEL_CLICK from "../onClick/TESTIMONIAL_MODEL_CLICK"
-export default function Testimonial_Part() {
+export default function TESTIMONIAL_PART() {
     const [openModel, setOpenModel] = useState(false) 
     const [modelData, setModelData] = useState({
         imgSrc: "",

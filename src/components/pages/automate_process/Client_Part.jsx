@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { client_Data } from "../data/Client_Data"
-export default function Client_Part() {
+export default function CLIENT_PART() {
     const client_list = client_Data.map((client, index) => 
     (<li class="clients-item" key={index}>
         <Link to={client.imgSrc} target="_blank" rel="noopener noreferrer">

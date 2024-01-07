@@ -1,4 +1,4 @@
-export default function Header_Part({txt}) {
+export default function HEADER_PART({txt}) {
     const text = []
     if(txt.includes('\n')){
         let textArr= txt.split('\n')

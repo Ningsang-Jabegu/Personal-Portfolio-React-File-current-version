@@ -1,4 +1,4 @@
-export default function About_Part() {
+export default function ABOUT_PART() {
     return (
             <section class="about-text">
                 <p>
