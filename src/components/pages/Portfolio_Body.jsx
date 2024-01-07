@@ -1,6 +1,6 @@
 import { useState, } from "react"
 import { Link } from "react-router-dom"
-import HEADER_PART from "./automate_process/HEADER_PART"
+import HEADER_PART from "./automate_process/HEADER_PART.jsx"
 export default function Portfolio_Body() {
     const [activeFilter, setActiveFilter] = useState('All')
     const [filterSelect, setFilterSelect] = useState(false)

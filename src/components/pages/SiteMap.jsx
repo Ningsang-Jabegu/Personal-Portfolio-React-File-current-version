@@ -1,6 +1,6 @@
 import Slidebar from "../Sidebar"
 import Navbar from "../Navbar";
-import HEADER_PART from "./automate_process/HEADER_PART";
+import HEADER_PART from "./automate_process/HEADER_PART.jsx";
 export default function SiteMap({ setNavTarget }) {
     return (
         <main>
