@@ -1,10 +1,10 @@
 import Slidebar from "../Sidebar"
 import Navbar from "../Navbar";
-import HEADER_PART from "./automate_process/HEADER_PART.jsx"
-import ABOUT_PART from "./automate_process/ABOUT_PART.jsx";
-import SERVICE_PART from "./automate_process/SERVICE_PART.jsx"
-import TESTIMONIAL_PART from "./automate_process/TESTIMONIAL_PART.jsx"
-import CLIENT_PART from "./automate_process/CLIENT_PART.jsx"
+import HEADER_PART from "./automate_process/HEADER_PART"
+import ABOUT_PART from "./automate_process/ABOUT_PART";
+import SERVICE_PART from "./automate_process/SERVICE_PART"
+import TESTIMONIAL_PART from "./automate_process/TESTIMONIAL_PART"
+import CLIENT_PART from "./automate_process/CLIENT_PART"
 export default function About({ setNavTarget }) {
     return (
         <main>

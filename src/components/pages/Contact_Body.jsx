@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import HEADER_PART from "./automate_process/HEADER_PART.jsx"
+import HEADER_PART from "./automate_process/HEADER_PART"
 export default function Contact_Body() {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import HEADER_PART from "./automate_process/HEADER_PART.jsx";
+import HEADER_PART from "./automate_process/HEADER_PART";
 export default function NotFound_Body({ setNavTarget }) {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')

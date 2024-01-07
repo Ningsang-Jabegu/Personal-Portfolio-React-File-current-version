@@ -1,6 +1,6 @@
-import HEADER_PART from "./automate_process/HEADER_PART.jsx";
-import EDUCATION_PART from "./automate_process/EDUCATION_PART.jsx";
-import EXPERIENCE_PART from "./automate_process/EXPERIENCE_PART.jsx";
+import HEADER_PART from "./automate_process/HEADER_PART";
+import EDUCATION_PART from "./automate_process/EDUCATION_PART";
+import EXPERIENCE_PART from "./automate_process/EXPERIENCE_PART";
 export default function Resume_Body(){
     return(
         <article className="resume active" data-page="resume">
