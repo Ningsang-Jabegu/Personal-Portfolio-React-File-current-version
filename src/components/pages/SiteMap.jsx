@@ -1,6 +1,7 @@
 import Slidebar from "../Sidebar"
 import Navbar from "../Navbar";
 import NotFound_Body from "./NotFound_Body";
+import Header_Part from "./automate_process/Header_Part";
 export default function SiteMap({ setNavTarget }) {
     return (
         <main>
@@ -9,9 +10,7 @@ export default function SiteMap({ setNavTarget }) {
                 <Navbar activeLink='' />
                 <article class="notfound  active" data-page="notfound">
 
-                    <header>
-                        <h2 class="h2 article-title">Site Map</h2>
-                    </header>
+                <Header_Part txt="Site Map" />
 
                     <section class="about-text">
                         <p>

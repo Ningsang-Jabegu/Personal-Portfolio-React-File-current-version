@@ -1,7 +1,20 @@
 export default function Header_Part({txt}) {
+    const text = []
+    if(txt.includes('\n')){
+        let textArr= txt.split('\n')
+        for(let i=0; i<textArr.length; i++){
+            text.push(textArr[i])
+            if(i < textArr.length -1){
+                text.push(<br/>)
+            }
+        }
+        console.log(text)
+    } else{
+        text = txt
+    }
     return (
         <header>
-            <h2 class="h2 article-title">{txt}</h2>
+            <h2 class="h2 article-title">{text}</h2>
         </header>
     )
 }

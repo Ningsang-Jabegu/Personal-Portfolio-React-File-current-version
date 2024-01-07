@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
+import Header_Part from "./automate_process/Header_Part";
 
 export default function Blog_Body() {
     return (
         <article class="blog active" data-page="blog">
 
-            <header>
-                <h2 class="h2 article-title">Blog</h2>
-            </header>
+            <Header_Part txt="Blog" />
 
             <section class="blog-posts">
 
                 <ul class="blog-posts-list">
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Limitations-of-Passive-Learning-as-a-Web-Developer'>
 
                             <figure class="blog-banner-box">
@@ -39,7 +38,7 @@ export default function Blog_Body() {
                         </Link>
                     </li>
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
                         <Link to='/blog/Improving-Communication-Skills-as-a-Frontend-Developer'>
 
                             <figure class="blog-banner-box">
@@ -66,7 +65,7 @@ export default function Blog_Body() {
                         </Link>
                     </li>
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
                         <Link to='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide'>
 
                             <figure class="blog-banner-box">
@@ -93,7 +92,7 @@ export default function Blog_Body() {
                         </Link>
                     </li>
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
                         <Link to='/blog/Staying-Up-to-Date-as-a-Front-End-Developer'>
 
                             <figure class="blog-banner-box">
@@ -114,14 +113,14 @@ export default function Blog_Body() {
                                 <h3 class="h3 blog-item-title">Staying Up-to-Date as a Front-End Developer</h3>
 
                                 <p class="blog-text">
-                                In the ever-evolving world of web development, staying up-to-date is not just an advantage, it’s a necessity. As a front-end developer, you’re at the forefront of this digital landscape, crafting user experiences and bringing designs to life. Here are some strategies to help you stay current in this fast-paced field.                                </p>
+                                    In the ever-evolving world of web development, staying up-to-date is not just an advantage, it’s a necessity. As a front-end developer, you’re at the forefront of this digital landscape, crafting user experiences and bringing designs to life. Here are some strategies to help you stay current in this fast-paced field.                                </p>
 
                             </div>
 
                         </Link>
                     </li>
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
                         <Link to='/blog/Broadening-Your-Horizons-as-a-Front-End-Web-Developer'>
 
                             <figure class="blog-banner-box">
@@ -142,7 +141,7 @@ export default function Blog_Body() {
                                 <h3 class="h3 blog-item-title">Broadening Your Horizons as a Front-End Web Developer</h3>
 
                                 <p class="blog-text">
-                                In the world of front-end development, consistency is a key factor that can significantly impact the quality of your work, your productivity, and your growth as a developer. Here’s why:
+                                    In the world of front-end development, consistency is a key factor that can significantly impact the quality of your work, your productivity, and your growth as a developer. Here’s why:
                                 </p>
 
                             </div>
@@ -150,7 +149,7 @@ export default function Blog_Body() {
                         </Link>
                     </li>
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
                         <Link to='/blog/Why-Consistency-Matters-in-Becoming-a-Better-Front-End-Developer'>
 
                             <figure class="blog-banner-box">
@@ -171,7 +170,7 @@ export default function Blog_Body() {
                                 <h3 class="h3 blog-item-title">Why Consistency Matters in Becoming a Better Front-End Developer</h3>
 
                                 <p class="blog-text">
-                                In the world of front-end development, consistency is a key factor that can significantly impact the quality of your work, your productivity, and your growth as a developer. Here’s why:
+                                    In the world of front-end development, consistency is a key factor that can significantly impact the quality of your work, your productivity, and your growth as a developer. Here’s why:
                                 </p>
 
                             </div>

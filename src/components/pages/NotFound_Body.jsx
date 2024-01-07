@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Header_Part from "./automate_process/Header_Part";
 export default function NotFound_Body({ setNavTarget }) {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')
@@ -52,10 +53,7 @@ export default function NotFound_Body({ setNavTarget }) {
 
     return (
         <article class="notfound  active" data-page="notfound">
-
-            <header>
-                <h2 class="h2 article-title">404 <br />Page Not Found !</h2>
-            </header>
+            <Header_Part txt={`404 \nPage Not Found !`} />
 
             <section class="about-text">
                 <p>
