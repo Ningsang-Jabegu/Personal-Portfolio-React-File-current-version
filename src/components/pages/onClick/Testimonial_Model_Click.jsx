@@ -1,5 +1,5 @@
 // import React, { useState } from "react"
-export default function Testimonial_Model_Click({openModel, setOpenModel, modelData, setModelData}) {
+export default function TESTIMONIAL_MODEL_CLICK({openModel, setOpenModel, modelData, setModelData}) {
     return (
         <>
             {/* <!--

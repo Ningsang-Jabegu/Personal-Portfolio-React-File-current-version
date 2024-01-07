@@ -1,6 +1,6 @@
 import { useState } from "react"
-import Testimonial_Model_Click from "../onClick/Testimonial_Model_Click"
-import Testimonial_Process from "./Testimonial_Process"
+import TESTIMONIAL_PROCESS from "./TESTIMONIAL_PROCESS"
+import TESTIMONIAL_MODEL_CLICK from "../onClick/TESTIMONIAL_MODEL_CLICK"
 export default function Testimonial_Part() {
     const [openModel, setOpenModel] = useState(false) 
     const [modelData, setModelData] = useState({
@@ -16,8 +16,8 @@ export default function Testimonial_Part() {
 
                 <ul class="testimonials-list has-scrollbar">
                     {/* {testimonial_lists} */}
-                    <Testimonial_Process openModel = {openModel} setOpenModel = {setOpenModel} modelData = {modelData} setModelData = {setModelData} />
-                    <Testimonial_Model_Click openModel = {openModel} setOpenModel = {setOpenModel} modelData = {modelData} setModelData = {setModelData} />
+                    <TESTIMONIAL_PROCESS openModel = {openModel} setOpenModel = {setOpenModel} modelData = {modelData} setModelData = {setModelData} />
+                    <TESTIMONIAL_MODEL_CLICK openModel = {openModel} setOpenModel = {setOpenModel} modelData = {modelData} setModelData = {setModelData} />
                 </ul>
 
             </section>

@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom"
 import { client_Data } from "../data/Client_Data"
 export default function Client_Part() {
     const client_list = client_Data.map((client, index) => 
     (<li class="clients-item" key={index}>
-        <a href={client.imgSrc} target="_blank">
+        <Link to={client.imgSrc} target="_blank" rel="noopener noreferrer">
             <img src={client.imgSrc} alt={client.imgAlt} />
-        </a>
+        </Link>
     </li>))
     return (
         <section class="clients">
