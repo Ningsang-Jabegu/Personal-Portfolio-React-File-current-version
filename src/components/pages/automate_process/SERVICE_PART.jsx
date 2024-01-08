@@ -2,7 +2,7 @@ import { service_Data } from "../data/Service_Data"
 export default function SERVICE_PART() {
     const service_list = service_Data.map((service, index) =>
     (
-        <li class="service-item">
+        <li class="service-item" key={index}>
 
                     <div class="service-icon-box">
                         <ion-icon name={service.ionIcon_name}></ion-icon>

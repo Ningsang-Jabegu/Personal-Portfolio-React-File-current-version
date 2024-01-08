@@ -1049,26 +1049,67 @@ figure .a ion-icon {
 
 .skills-list {
     padding: 20px;
-}
-
-.skills-item:not(:last-child) {
-    margin-bottom: 15px;
-}
-
-.skill .title-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+/* .skills-item:not(:last-child) {
+    margin-bottom: 15px;
+} */
+
+.skills-item {
+    width: 100%;
+}
+
+.skill .skill-body-wrapper {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 
-.skill .title-wrapper data {
+.skill-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skill-button-wrapper span {
+    width: 100%;
+    margin: .1em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4em;
+    background: var(--onyx);
+    color: var(--white-1);
+    border-radius: 1em;
+    padding: .5em;
+    transition: 300ms ease-in-out;
+}
+
+.skill-body-wrapper ion-icon {
+    font-size: 3.8em;
+    color: var(--orange-yellow-crayola);
+}
+
+.skill-button-wrapper:hover span{
+    background: #454547;
+}
+
+/* .skill .title-wrapper data {
     color: var(--light-gray);
     font-size: var(--fs-7);
     font-weight: var(--fw-300);
-}
+} */
 
-.skill-progress-bg {
+/* .skill-progress-bg {
     background: var(--jet);
     width: 100%;
     height: 8px;
@@ -1079,7 +1120,7 @@ figure .a ion-icon {
     background: var(--text-gradient-yellow);
     height: 100%;
     border-radius: inherit;
-}
+} */
 
 /* ----------------------------------- *\
    #PORTFOLIO
@@ -1813,8 +1854,9 @@ textarea.form-input::-webkit-resizer {
         left: -43px;
     }
 
-    .skills-item:not(:last-child) {
+    .skills-item {
         margin-bottom: 25px;
+        width: 100%;
     }
 
     .education-figure figure {
@@ -1947,7 +1989,18 @@ textarea.form-input::-webkit-resizer {
         grid-template-columns: 1fr 1fr;
     }
 
+    .skills-item {
+        margin-bottom: 25px;
+        width: 45%;
+        aspect-ratio: 16/9;
+    }
 
+    .skill-body-wrapper h5 {
+        width: 80%;
+    }
+    .skill-body-wrapper ion-icon {
+        width: 20%;
+    }
 
     /** CONTACT **/
 
@@ -2045,7 +2098,10 @@ textarea.form-input::-webkit-resizer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-
+    .skills-item {
+        width: 27%;
+        aspect-ratio: 16/9;
+    }
 
     /** BLOG **/
 
@@ -2188,5 +2244,12 @@ textarea.form-input::-webkit-resizer {
 
     .education-main .timeline-text {
         max-width: 100%;
+    }
+
+    /* SKILLS*/
+    .skills-item {
+        margin-bottom: 25px;
+        width: 30%;
+        aspect-ratio: 16/9;
     }
 }

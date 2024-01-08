@@ -1,6 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
-import FrontEndInstructor_Body from "./FrontEndInstructor_Body"
+import { Link } from "react-router-dom"
 
 export default function WebDesignDevelopment() {
     return (
@@ -16,7 +16,8 @@ export default function WebDesignDevelopment() {
                         <img src="/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
                         <br />
                         <h3> Web Design and Development</h3>
-                        <p>2022 Dec — Present</p>
+                        <p>We are sorry to inform you that, this page is under construction. Please visit shortly (Expected on: 2024/01/10).</p>
+                        {/* <p>2022 Dec — Present</p>
                         <br />
                         <p className="timeline-text">
                             I am working as a remote front-end web developer in Kirat Yakthung Thegimhang Chobegu Sajumlung (KYTCS) or Chobegu Sajumlung. Here, my main work is to update the website content on a regular basis. To learn about the working culture of this organization, I am given the task of showing those organizational activities on this website.
@@ -38,7 +39,7 @@ export default function WebDesignDevelopment() {
                         <Link to="https://chobegusajumlung.org.np/" target="_blank">
                             <button>Visit Chobegu Sajumlung <ion-icon name="school-outline"></ion-icon>
                             </button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </article>
             </div>

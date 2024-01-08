@@ -33,6 +33,7 @@ import Blog_12 from './components/pages/blogs/Blog_12';
 import Blog_13 from './components/pages/blogs/Blog_13';
 import Blog_14 from './components/pages/blogs/Blog_14';
 import Blog_15 from './components/pages/blogs/Blog_15';
+import WebDesignDevelopment from './components/pages/skills/WebDesignDevelopment';
 
 function App() {
   const [navTarget, setNavTarget] = useState("About");
@@ -69,6 +70,7 @@ function App() {
           <Route path='/resume/experience/FrontEndWebInstructor' element={<FrontEndWebInstructor />}/>
           <Route path='/resume/experience/WebMaster' element={<WebMaster />}/>
           <Route path='/resume/experience/InnovationConsultant' element={<InnovationConsultant />}/>
+          <Route path='/resume/skill/Web-Design-And-Development' element={<WebDesignDevelopment />}/>
           <Route path='/sitemap' element={<SiteMap />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
