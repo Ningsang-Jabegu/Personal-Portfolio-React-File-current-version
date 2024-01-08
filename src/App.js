@@ -34,6 +34,7 @@ import Blog_13 from './components/pages/blogs/Blog_13';
 import Blog_14 from './components/pages/blogs/Blog_14';
 import Blog_15 from './components/pages/blogs/Blog_15';
 import WebDesignDevelopment from './components/pages/skills/WebDesignDevelopment';
+import Blog_16 from './components/pages/blogs/Blog_16';
 
 function App() {
   const [navTarget, setNavTarget] = useState("About");
@@ -59,6 +60,7 @@ function App() {
           <Route path='/blog/The-Limitations-of-Passive-Learning-as-a-Web-Developer' element={<Blog_13 />} />
           <Route path='/blog/The-Importance-of-Hands-On-Experience-in-Web-Development-Learning' element={<Blog_14 />} />
           <Route path='/blog/The-Role-of-Problem-Solving-in-the-Daily-Life-of-a-Web-Developer' element={<Blog_15 />} />
+          <Route path='/blog/The-Need-for-Continuous-Learning-in-Web-Development' element={<Blog_16 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

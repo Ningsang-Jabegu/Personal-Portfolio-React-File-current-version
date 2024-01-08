@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Need-for-Continuous-Learning-in-Web-Development'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-16.jpg" alt="The Need for Continuous Learning in Web Development"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-09">Jan 9, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Need for Continuous Learning in Web Development</h3>
+
+                                <p class="blog-text">In the ever-evolving field of web development, continuous learning is not just a recommendation, it’s a necessity. Here’s why:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Role-of-Problem-Solving-in-the-Daily-Life-of-a-Web-Developer'>
 
                             <figure class="blog-banner-box">
