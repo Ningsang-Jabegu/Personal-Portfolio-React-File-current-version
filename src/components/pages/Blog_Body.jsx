@@ -11,6 +11,60 @@ export default function Blog_Body() {
 
                 <ul class="blog-posts-list">
 
+                <li class="blog-post-item">
+                        <Link to='/blog/The-Role-of-Problem-Solving-in-the-Daily-Life-of-a-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-15.jpg" alt="The Role of Problem-Solving in the Daily Life of a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Reflection</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-08">Jan 8, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Role of Problem-Solving in the Daily Life of a Web Developer</h3>
+
+                                <p class="blog-text">Web development is a field that is as exciting as it is challenging. At the heart of this field lies a critical skill: problem-solving. Here’s why problem-solving plays a pivotal role in the daily life of a web developer:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <Link to='/blog/The-Importance-of-Hands-On-Experience-in-Web-Development-Learning'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-14.jpg" alt="The Limitations of Passive Learning as a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Reflection</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-07">Jan 7, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Importance of Hands-On Experience in Web Development Learning</h3>
+
+                                <p class="blog-text">In the realm of web development, theoretical knowledge is undoubtedly important. However, it’s the hands-on experience that truly shapes a proficient web developer. Here’s why:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
                     <li class="blog-post-item">
                         <Link to='/blog/The-Limitations-of-Passive-Learning-as-a-Web-Developer'>
 
