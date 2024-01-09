@@ -289,6 +289,10 @@ section.active {
     z-index: -1;
 }
 
+.hide {
+    display: none;
+}
+
 /* ----------------------------------- *\
    #MAIN
 \* ----------------------------------- */
@@ -1103,13 +1107,13 @@ figure .a ion-icon {
     background: #454547;
 }
 
-/* .skill .title-wrapper data {
+.skill .title-wrapper data {
     color: var(--light-gray);
     font-size: var(--fs-7);
     font-weight: var(--fw-300);
-} */
+}
 
-/* .skill-progress-bg {
+.skill-progress-bg {
     background: var(--jet);
     width: 100%;
     height: 8px;
@@ -1120,7 +1124,17 @@ figure .a ion-icon {
     background: var(--text-gradient-yellow);
     height: 100%;
     border-radius: inherit;
-} */
+}
+
+.skill-show-individual img{
+    width: 100%;
+    border-radius: 1em;
+    /* aspect-ratio: 16/9; */
+}
+
+.skill-main .skill-show-individual {
+    padding: .4em!important;
+}
 
 /* ----------------------------------- *\
    #PORTFOLIO
@@ -1401,22 +1415,26 @@ article.indivisual_blog .blog-item-title{
     overflow: hidden;
 }
 
-.education-main {
+.education-main,
+.skill-main {
     color: var(--white-2);
 }
 .blog-text-indivisual h3,
-.education-main h3 {
+.education-main h3,
+.skill-main h3 {
     font-size: 26px;
     color: var(--white-1);
 }
 .blog-text-indivisual h4,
-.education-main h4 {
+.education-main h4,
+.skill-main h4 {
     font-size: 23px;
     color: var(--white-1);
 }
 
 .blog-text-indivisual p,
-.education-main p {
+.education-main p,
+.skill-main p {
     font-size: 18px;
     line-height: 2;
 }

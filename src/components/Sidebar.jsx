@@ -123,6 +123,12 @@ export default function Slidebar() {
                         </Link>
                     </li>
 
+                    <li className="social-item" >
+                        <Link to="https://github.com/Ningsang-Jabegu" target="_blank" rel="noopener noreferrer" className="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </Link>
+                    </li>
+
                 </ul>
 
             </div>

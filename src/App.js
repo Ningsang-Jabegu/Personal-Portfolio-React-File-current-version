@@ -33,9 +33,9 @@ import Blog_12 from './components/pages/blogs/Blog_12';
 import Blog_13 from './components/pages/blogs/Blog_13';
 import Blog_14 from './components/pages/blogs/Blog_14';
 import Blog_15 from './components/pages/blogs/Blog_15';
-import WebDesignDevelopment from './components/pages/skills/WebDesignDevelopment';
 import Blog_16 from './components/pages/blogs/Blog_16';
-
+import HoldAllSkill from './components/pages/skills/HoldAllSkill';
+import { skill_Data } from './components/pages/data/Skill_Data';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -72,7 +72,10 @@ function App() {
           <Route path='/resume/experience/FrontEndWebInstructor' element={<FrontEndWebInstructor />}/>
           <Route path='/resume/experience/WebMaster' element={<WebMaster />}/>
           <Route path='/resume/experience/InnovationConsultant' element={<InnovationConsultant />}/>
-          <Route path='/resume/skill/Web-Design-And-Development' element={<WebDesignDevelopment />}/>
+          <Route path='/resume/skill/Web-Design-And-Development' element={<HoldAllSkill select="Web Design And Development" />}/>
+          <Route path='/resume/skill/Graphics-Design' element={<HoldAllSkill select="Graphics Design" />}/>
+          <Route path='/resume/skill/Front-End-Web-Dev.-Mentoring' element={<HoldAllSkill select="Front-End Web Dev. Mentoring" />}/>
+          <Route path='/resume/skill/Wordpress' element={<HoldAllSkill select="Wordpress"/>}/>
           <Route path='/sitemap' element={<SiteMap />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>

@@ -1,6 +1,7 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
 import { Link } from "react-router-dom"
+import HEADER_PART from "../automate_process/HEADER_PART"
 
 export default function WebDesignDevelopment() {
     return (
@@ -9,14 +10,12 @@ export default function WebDesignDevelopment() {
             <div className="main-content">
                 <Navbar activeLink='Resume' />
                 <article className="Experience active" data-page="Experience">
-                    <header>
-                        <h2 className="h2 article-title">Skill</h2>
-                    </header>
+                    <HEADER_PART txt="Skill"/>
                     <div className="education-main">
                         <img src="/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
                         <br />
                         <h3> Web Design and Development</h3>
-                        <p>We are sorry to inform you that, this page is under construction. Please visit shortly (Expected on: 2024/01/10).</p>
+                        <p>The most modern and high-quality design made at a professional level.</p>
                         {/* <p>2022 Dec — Present</p>
                         <br />
                         <p className="timeline-text">

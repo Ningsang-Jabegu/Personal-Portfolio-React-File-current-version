@@ -4,7 +4,7 @@ export default function SKILL_PART() {
     const skill_list = skill_Data.map((skill, index) =>
     (
         <li className="skills-item content-card">
-            <Link to="/resume/skill/Web-Design-And-Development">
+            <Link to={skill.skillLink}>
                 <div className="skill-body-wrapper">
                     <h5 className="h5">{skill.skillTitle}</h5>
                     <ion-icon name={skill.ionIcon_name}></ion-icon>
@@ -13,7 +13,6 @@ export default function SKILL_PART() {
                 <div className="skill-button-wrapper" title={`View my ${skill.skillTitle} skill`}>
                     <span><ion-icon name="eye-outline" ></ion-icon></span>
 
-                    {/* <data value="80">80%</data> */}
                 </div>
             </Link>
 
