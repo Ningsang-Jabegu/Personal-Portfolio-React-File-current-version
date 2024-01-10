@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Master-the-Basics-to-Flourish-in-the-World-of-Web-Development'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-17.jpg" alt="Master the Basics to Flourish in the World of Web Development"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-10">Jan 10, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Master the Basics to Flourish in the World of Web Development</h3>
+
+                                <p class="blog-text">Web development is a dynamic field that offers exciting opportunities for those who are willing to learn and adapt. But before you can create complex web applications or innovative websites, you need to master the basics. Here’s how you can do it.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Need-for-Continuous-Learning-in-Web-Development'>
 
                             <figure class="blog-banner-box">
