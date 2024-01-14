@@ -37,6 +37,7 @@ import Blog_16 from './components/pages/blogs/Blog_16';
 import HoldAllSkill from './components/pages/skills/HoldAllSkill';
 import { skill_Data } from './components/pages/data/Skill_Data';
 import Blog_17 from './components/pages/blogs/Blog_17';
+import Blog_18 from './components/pages/blogs/Blog_18';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -63,6 +64,7 @@ function App() {
           <Route path='/blog/The-Role-of-Problem-Solving-in-the-Daily-Life-of-a-Web-Developer' element={<Blog_15 />} />
           <Route path='/blog/The-Need-for-Continuous-Learning-in-Web-Development' element={<Blog_16 />} />
           <Route path='/blog/Master-the-Basics-to-Flourish-in-the-World-of-Web-Development' element={<Blog_17 />} />
+          <Route path='/blog/Learning-a-JavaScript-Framework-for-Faster-Web-Development' element={<Blog_18 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

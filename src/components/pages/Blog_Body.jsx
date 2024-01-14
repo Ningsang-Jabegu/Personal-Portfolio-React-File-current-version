@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Learning-a-JavaScript-Framework-for-Faster-Web-Development'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-18.jpg" alt="Learning a JavaScript Framework for Faster Web Development"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-11">Jan 11, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Learning a JavaScript Framework for Faster Web Development</h3>
+
+                                <p class="blog-text">Web development has come a long way with the advent of high-level programming languages and frameworks. Among these, JavaScript frameworks have gained significant popularity due to their efficiency and versatility. This blog post will guide you through the process of learning a JavaScript framework to speed up your web development journey.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/Master-the-Basics-to-Flourish-in-the-World-of-Web-Development'>
 
                             <figure class="blog-banner-box">

@@ -1433,10 +1433,22 @@ article.indivisual_blog .blog-item-title{
 }
 
 .blog-text-indivisual p,
+.blog-text-indivisual ul li,
+.blog-text-indivisual ol li,
 .education-main p,
 .skill-main p {
     font-size: 18px;
     line-height: 2;
+}
+
+.blog-text-indivisual ul li {
+    list-style: disc;
+    margin-left: 2.3em;
+}
+
+.blog-text-indivisual ol li {
+    list-style: decimal;
+    margin-left: 2.3em;
 }
 
 .blog-content-indivisual .blog-text-indivisual,
