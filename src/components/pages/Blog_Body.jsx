@@ -11,6 +11,33 @@ export default function Blog_Body() {
 
                 <ul class="blog-posts-list">
 
+                <li class="blog-post-item">
+                        <Link to='/blog/Debugging-and-Testing-in-Programming- A-Real-Life-Problem-Solving-Tool'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-21.jpg" alt="Debugging and Testing in Programming: A Real-Life Problem-Solving Tool"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-14">Jan 14, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Debugging and Testing in Programming: A Real-Life Problem-Solving Tool</h3>
+
+                                <p class="blog-text">In the world of programming, debugging and testing are two essential tools that help developers ensure their code is error-free and performs as expected. These tools are not just confined to the realm of programming, but they also serve as real-life problem-solving tools.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
                     <li class="blog-post-item">
                         <Link to='/blog/Why-Version-Control-Systems-are-Essential-in-the-Daily-Life-of-a-Web-Developer'>
 
