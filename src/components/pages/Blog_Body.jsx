@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Understanding-Responsive-Design-as-a-Web-Beginner'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-19.jpg" alt="Understanding Responsive Design as a Web Beginner"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-12">Jan 12, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Understanding Responsive Design as a Web Beginner</h3>
+
+                                <p class="blog-text">In the era of smartphones, tablets, and desktops, creating a website that looks good on all devices is crucial. This is where responsive web design comes in. If you’re a beginner in web development, understanding responsive design can significantly improve your skills. Let’s dive in!</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/Learning-a-JavaScript-Framework-for-Faster-Web-Development'>
 
                             <figure class="blog-banner-box">
