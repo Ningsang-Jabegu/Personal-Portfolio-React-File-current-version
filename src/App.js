@@ -39,6 +39,7 @@ import { skill_Data } from './components/pages/data/Skill_Data';
 import Blog_17 from './components/pages/blogs/Blog_17';
 import Blog_18 from './components/pages/blogs/Blog_18';
 import Blog_19 from './components/pages/blogs/Blog_19';
+import Blog_20 from './components/pages/blogs/Blog_20';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -67,6 +68,7 @@ function App() {
           <Route path='/blog/Master-the-Basics-to-Flourish-in-the-World-of-Web-Development' element={<Blog_17 />} />
           <Route path='/blog/Learning-a-JavaScript-Framework-for-Faster-Web-Development' element={<Blog_18 />} />
           <Route path='/blog/Understanding-Responsive-Design-as-a-Web-Beginner' element={<Blog_19 />} />
+          <Route path='/blog/Why-Version-Control-Systems-are-Essential-in-the-Daily-Life-of-a-Web-Developer' element={<Blog_20 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
