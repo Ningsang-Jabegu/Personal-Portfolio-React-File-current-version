@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Importance-of-Staying-Updated-as-a-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-22.jpg" alt="The Importance of Staying Updated as a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-15">Jan 15, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Importance of Staying Updated as a Web Developer</h3>
+
+                                <p class="blog-text">In the fast-paced world of web development, staying updated is not just an option, it’s a necessity. The landscape of web technologies is constantly evolving, with new tools, libraries, and frameworks emerging every day. This post explores why it’s crucial for web developers to stay on top of these changes.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/Debugging-and-Testing-in-Programming- A-Real-Life-Problem-Solving-Tool'>
 
                             <figure class="blog-banner-box">
