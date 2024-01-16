@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Soft-Skills-and-Their-Benefits-for-Web-Developers'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-23.jpg" alt="Soft Skills and Their Benefits for Web Developers"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Learning</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-16">Jan 16, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Soft Skills and Their Benefits for Web Developers</h3>
+
+                                <p class="blog-text">While technical skills are crucial for web developers, soft skills—those related to personal attributes and interpersonal interactions—are equally important. This blog post will explore the importance of soft skills for web developers and how they can benefit from honing these abilities.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Importance-of-Staying-Updated-as-a-Web-Developer'>
 
                             <figure class="blog-banner-box">

@@ -42,6 +42,7 @@ import Blog_19 from './components/pages/blogs/Blog_19';
 import Blog_20 from './components/pages/blogs/Blog_20';
 import Blog_21 from './components/pages/blogs/Blog_21';
 import Blog_22 from './components/pages/blogs/Blog_22';
+import Blog_23 from './components/pages/blogs/Blog_23';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -73,6 +74,7 @@ function App() {
           <Route path='/blog/Why-Version-Control-Systems-are-Essential-in-the-Daily-Life-of-a-Web-Developer' element={<Blog_20 />} />
           <Route path='/blog/Debugging-and-Testing-in-Programming- A-Real-Life-Problem-Solving-Tool' element={<Blog_21 />} />
           <Route path='/blog/The-Importance-of-Staying-Updated-as-a-Web-Developer' element={<Blog_22 />} />
+          <Route path='/blog/Soft-Skills-and-Their-Benefits-for-Web-Developers' element={<Blog_23 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
