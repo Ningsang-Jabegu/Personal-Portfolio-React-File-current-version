@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Power-of-a-Portfolio:-Flourishing-as-a-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-24.jpg" alt="The Power of a Portfolio: Flourishing as a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-17">Jan 17, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Power of a Portfolio: Flourishing as a Web Developer</h3>
+
+                                <p class="blog-text">In the competitive field of web development, standing out from the crowd is crucial. One of the most effective ways to showcase your skills, experience, and growth as a web developer is through a personal portfolio. This blog post explores why building a portfolio is an essential step towards flourishing in your web development career.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/Soft-Skills-and-Their-Benefits-for-Web-Developers'>
 
                             <figure class="blog-banner-box">
