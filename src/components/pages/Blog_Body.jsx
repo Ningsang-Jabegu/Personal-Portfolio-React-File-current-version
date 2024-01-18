@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Successful-Developer’s-Mantra:-Never-Stop-Learning'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-25.jpg" alt="The Successful Developer’s Mantra: Never Stop Learning"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-18">Jan 18, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Successful Developer’s Mantra: Never Stop Learning</h3>
+
+                                <p class="blog-text">In the ever-evolving world of technology, the key to success is continuous learning. This is especially true in the field of software development, where new languages, frameworks, and technologies emerge at a rapid pace. A successful developer understands that the learning journey never truly ends.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Power-of-a-Portfolio:-Flourishing-as-a-Web-Developer'>
 
                             <figure class="blog-banner-box">
