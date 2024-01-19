@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Why-Front-End-Development-is-a-High-Demand-Skill-in-IT'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-26.jpg" alt="The Successful Developer’s Mantra: Never Stop Learning"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-19">Jan 19, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Why Front-End Development is a High-Demand Skill in IT</h3>
+
+                                <p class="blog-text">Front-end development is a critical aspect of the tech industry and its importance is growing exponentially. Here are some reasons why front-end development is a high-demand skill in IT:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Successful-Developer’s-Mantra:-Never-Stop-Learning'>
 
                             <figure class="blog-banner-box">

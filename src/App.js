@@ -45,6 +45,7 @@ import Blog_22 from './components/pages/blogs/Blog_22';
 import Blog_23 from './components/pages/blogs/Blog_23';
 import Blog_24 from './components/pages/blogs/Blog_24';
 import Blog_25 from './components/pages/blogs/Blog_25';
+import Blog_26 from './components/pages/blogs/Blog_26';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -79,6 +80,7 @@ function App() {
           <Route path='/blog/Soft-Skills-and-Their-Benefits-for-Web-Developers' element={<Blog_23 />} />
           <Route path='/blog/The-Power-of-a-Portfolio:-Flourishing-as-a-Web-Developer' element={<Blog_24 />} />
           <Route path='/blog/The-Successful-Developer’s-Mantra:-Never-Stop-Learning' element={<Blog_25 />} />
+          <Route path='/blog/Why-Front-End-Development-is-a-High-Demand-Skill-in-IT' element={<Blog_26 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
