@@ -1,3 +1,4 @@
+// import {total} from "./total"
 const skill_Data = {
     "Web Design And Development": {
         index: 0,
@@ -23,6 +24,8 @@ const skill_Data = {
                         this["Personal Website"] + this["School Website"] + this["Social Organization Website"] + this["Commercial Store Website"]
                     )
                 }
+                
+                // "Total" : total(skill_Data, "Web Design And Development", "Completed Project")
             },
             "Total Project To Complete": {
                 "Personal Website": 25,
@@ -247,7 +250,9 @@ const skill_Data = {
     }
 };
 
-// console.log(skill_Data[0]["skillInfo"]["Remaining Project"])
+// Call the total function with the correct parameters
+// alert(total(skill_Data, "Web Design And Development", "Completed Project"));
+
 
 export { skill_Data }
 // console.log(skill_Data)
