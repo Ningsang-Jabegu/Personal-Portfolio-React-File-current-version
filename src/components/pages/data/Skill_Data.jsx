@@ -4,6 +4,11 @@ const skill_Data = {
         index: 0,
         ionIcon_name: "desktop-outline",
         skillLink: "/resume/skill/Web-Design-And-Development",
+        skillExternalLinks: {
+            "Github":"",
+            "FreeCodeCamp":"",
+            
+        },
         skillText: "The most modern and high-quality design made at a professional level.",
         skillInfo: {
             "Started Date": {
@@ -71,6 +76,11 @@ const skill_Data = {
         index: 1,
         ionIcon_name: "color-palette-outline",
         skillLink: "/resume/skill/Graphics-Design",
+        skillExternalLinks: {
+            "Github":"",
+            "FreeCodeCamp":"",
+            
+        },
         skillText: "I make high-quality print and digital design.",
         skillInfo: {
             "Started Date": {
@@ -136,6 +146,11 @@ const skill_Data = {
         index: 2,
         ionIcon_name: "people-circle-outline",
         skillLink: "/resume/skill/Front-End-Web-Dev.-Mentoring",
+        skillExternalLinks: {
+            "Github":"",
+            "FreeCodeCamp":"",
+            
+        },
         skillTitle: "Front-End Web Dev. Mentoring",
         skillText: "High-quality mentoring of web design and development at the professional level.",
         skillInfo: {
@@ -187,6 +202,11 @@ const skill_Data = {
         index: 3,
         ionIcon_name: "logo-wordpress",
         skillLink: "/resume/skill/Wordpress",
+        skillExternalLinks: {
+            "Github":"",
+            "FreeCodeCamp":"",
+            
+        },
         skillText: "I make high-quality photos of any category at a professional level.",
         skillInfo: {
             "Started Date": {

@@ -12,10 +12,37 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Flexibility-of-Being-a-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-28.jpg" alt="The Flexibility of Being a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-21">Jan 21, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Flexibility of Being a Web Developer</h3>
+
+                                <p class="blog-text">In the rapidly evolving world of technology, web development has emerged as a crucial field. The demand for creative and problem-solving individuals in this domain is higher than ever. But why is this so? Let’s delve into the reasons.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/Why-the-Web-Development-Community-is-Seeking-Creative-and-Problem-Solving-Individuals'>
 
                             <figure class="blog-banner-box">
-                                <img src="./assets/images/blog/blog-27.jpg" alt="Why the Web Development Community is Seeking Creative and Problem-Solving Individuals"
+                                <img src="./assets/images/blog/blog-27.jpg" alt="The Flexibility of Being a Web Developer"
                                     loading="lazy" />
                             </figure>
 
