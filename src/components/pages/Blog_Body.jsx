@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/Front-End-Development:-The-Gateway-to-Full-Stack'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-29.jpg" alt="Front-End Development: The Gateway to Full Stack"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-22">Jan 22, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Front-End Development: The Gateway to Full Stack</h3>
+
+                                <p class="blog-text">In the world of web development, the journey often begins at the front end. It’s the part of the web that users interact with directly, and it’s crucial for creating an engaging online experience. But beyond its importance in crafting user interfaces, front-end development also serves as a gateway to full-stack development. Here’s why:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                <li class="blog-post-item">
                         <Link to='/blog/The-Flexibility-of-Being-a-Web-Developer'>
 
                             <figure class="blog-banner-box">
