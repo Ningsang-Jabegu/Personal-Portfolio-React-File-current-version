@@ -11,7 +11,34 @@ export default function Blog_Body() {
 
                 <ul class="blog-posts-list">
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
+                        <Link to='/blog/Defining-the-Scope-of-a-Client’s-Project-as-a-New-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-31.jpg" alt="Defining the Scope of a Client’s Project as a New Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-24">Jan 24, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Defining the Scope of a Client’s Project as a New Web Developer</h3>
+
+                                <p class="blog-text">Entering the world of web development can be an exciting journey. One of the first steps in this journey is learning how to define the scope of a client’s project. Here’s a guide to help you navigate this process:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/Understanding-Client-Needs:-The-Key-to-Faster-Web-Development'>
 
                             <figure class="blog-banner-box">
