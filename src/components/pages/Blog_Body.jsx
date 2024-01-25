@@ -11,6 +11,33 @@ export default function Blog_Body() {
 
                 <ul class="blog-posts-list">
 
+                <li class="blog-post-item">
+                        <Link to='/blog/Planning-a-Web-Development-Project'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-32.jpg" alt="Planning a Web Development Project"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-25">Jan 25, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Planning a Web Development Project</h3>
+
+                                <p class="blog-text">Web development projects can be complex, requiring careful planning and execution. Here's a guide on how to plan your web development project effectively.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
                     <li class="blog-post-item">
                         <Link to='/blog/Defining-the-Scope-of-a-Client’s-Project-as-a-New-Web-Developer'>
 
