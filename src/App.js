@@ -52,6 +52,7 @@ import Blog_29 from './components/pages/blogs/Blog_29';
 import Blog_30 from './components/pages/blogs/Blog_30';
 import Blog_31 from './components/pages/blogs/Blog_31';
 import Blog_32 from './components/pages/blogs/Blog_32';
+import Blog_33 from './components/pages/blogs/Blog_33';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -93,6 +94,7 @@ function App() {
           <Route path='/blog/Understanding-Client-Needs:-The-Key-to-Faster-Web-Development' element={<Blog_30 />} />
           <Route path='/blog/Defining-the-Scope-of-a-Client’s-Project-as-a-New-Web-Developer' element={<Blog_31 />} />
           <Route path='/blog/Planning-a-Web-Development-Project' element={<Blog_32 />} />
+          <Route path='/blog/The-Impact-of-Effective-Communication-on-Accelerating-Web-Development' element={<Blog_33 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
