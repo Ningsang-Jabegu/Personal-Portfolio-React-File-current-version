@@ -12,6 +12,33 @@ export default function Blog_Body() {
                 <ul class="blog-posts-list">
 
                 <li class="blog-post-item">
+                        <Link to='/blog/The-Importance-of-Seeking-Feedback-as-a-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-35.jpg" alt="The Importance of Seeking Feedback as a Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-28">Jan 28, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">The Importance of Seeking Feedback as a Web Developer</h3>
+
+                                <p class="blog-text">In the dynamic field of web development, feedback plays a crucial role in shaping a developer’s growth, the user experience, and the overall success of the project. Here’s why seeking feedback is vital for a web developer:</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/How-Developers-Can-Deliver-Quality-Work'>
 
                             <figure class="blog-banner-box">
