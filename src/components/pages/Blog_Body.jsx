@@ -11,7 +11,34 @@ export default function Blog_Body() {
 
                 <ul class="blog-posts-list">
 
-                <li class="blog-post-item">
+                    <li class="blog-post-item">
+                        <Link to='/blog/Ensuring-Cross-Browser-Compatibility:-A-Must-for-Every-Web-Developer'>
+
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog/blog-36.jpg" alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
+                                    loading="lazy" />
+                            </figure>
+
+                            <div class="blog-content">
+
+                                <div class="blog-meta">
+                                    <p class="blog-category">Explore</p>
+
+                                    <span class="dot"></span>
+
+                                    <time datetime="2024-01-29">Jan 29, 2024</time>
+                                </div>
+
+                                <h3 class="h3 blog-item-title">Ensuring Cross-Browser Compatibility: A Must for Every Web Developer</h3>
+
+                                <p class="blog-text">Web development is a dynamic field, and one of the challenges that web developers face is ensuring cross-browser compatibility. But why is it so important? Let’s delve into the reasons.</p>
+
+                            </div>
+
+                        </Link>
+                    </li>
+
+                    <li class="blog-post-item">
                         <Link to='/blog/The-Importance-of-Seeking-Feedback-as-a-Web-Developer'>
 
                             <figure class="blog-banner-box">
