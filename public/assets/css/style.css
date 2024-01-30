@@ -1451,6 +1451,14 @@ article.indivisual_blog .blog-item-title{
     margin-left: 2.3em;
 }
 
+.blog-text-indivisual pre {
+    margin: 1em;
+    background: #121212;
+    border-radius: .5em;
+    padding: 1em;
+    border: 1px solid #383838;
+}
+
 .blog-content-indivisual .blog-text-indivisual,
 .blog-text {
     color: var(--light-gray);

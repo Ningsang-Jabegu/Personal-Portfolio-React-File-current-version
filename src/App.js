@@ -56,6 +56,7 @@ import Blog_33 from './components/pages/blogs/Blog_33';
 import Blog_34 from './components/pages/blogs/Blog_34';
 import Blog_35 from './components/pages/blogs/Blog_35';
 import Blog_36 from './components/pages/blogs/Blog_36';
+import Blog_37 from './components/pages/blogs/Blog_37';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
@@ -101,6 +102,7 @@ function App() {
           <Route path='/blog/How-Developers-Can-Deliver-Quality-Work' element={<Blog_34 />} />
           <Route path='/blog/The-Importance-of-Seeking-Feedback-as-a-Web-Developer' element={<Blog_35 />} />
           <Route path='/blog/Ensuring-Cross-Browser-Compatibility:-A-Must-for-Every-Web-Developer' element={<Blog_36 />} />
+          <Route path='/blog/Handling-User-Interactions-as-a-Web-Developer' element={<Blog_37 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
