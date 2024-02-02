@@ -1,5 +1,5 @@
 <h2 style="color: #333; font-family: Arial, sans-serif; margin-top: 20px; text-align: center;">Ningsang Jabegu</h2>
-  <p style="color: #666; font-family: Arial, sans-serif; text-align: center;">Web Master, Front End React Developer</p>
+  <p style="color: #666; font-family: Arial, sans-serif; text-align: center;">Web Master, Front End React Developer, Mid Stack Developer</p>
   <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
   <p style="color: #666; font-family: Arial, sans-serif; text-align: center;">Dedicated to creating commercial and genuine website to help businesses and organization grow towards their excellency.</p>
   <ul style="list-style: none; padding-left: 0; text-align: center;">
