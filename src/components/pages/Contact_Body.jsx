@@ -4,6 +4,7 @@ export default function Contact_Body() {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [racBMember, setracBMember] = useState('No')
     const [isSubmitted, setIsSubmitted] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     const [ifErrorOccured, setIfErrorOccured] = useState(false)
@@ -20,6 +21,8 @@ export default function Contact_Body() {
         formData.append('fullname', fullname)
         formData.append('email', email)
         formData.append('message', message)
+        formData.append("racBMember", racBMember)
+        // console.log(formData.message)
         await fetch(scriptURL, { method: 'POST', body: formData })
             .then(response => response.json())  // Extract JSON data from the response
             .then(data => console.log('Success!', data))  // Log the data
@@ -27,10 +30,13 @@ export default function Contact_Body() {
                 console.log('Error', error.message)
                 handleError()
             });
-
+        for (var pair of formData.entries()) {
+            console.log(pair[0] + " - " + pair[1]);
+        }
         setFullname('');
         setEmail('')
         setMessage('')
+        setracBMember('')
         setIsSubmitted(true)
         setIsLoading(false)
     }
@@ -60,9 +66,12 @@ export default function Contact_Body() {
                                 <input type="email" name="email" className="form-input" placeholder="Email address" required
                                     data-form-input value={email} onChange={e => setEmail(e.target.value)} />
                             </div>
-
                             <textarea name="message" className="form-input" placeholder="Your Message" required
                                 data-form-input value={message} onChange={e => setMessage(e.target.value)}></textarea>
+                            <div className="input-checkbox">
+                                <input type="checkbox" name="racBMember" className="form-input" id="racBMember"
+                                    data-form-input value={racBMember} onChange={e => setracBMember('Yes')} /> <label for="racBMember" style={{ color: "#fff", fontWeight: "normal" }}> Are you the member of Rotaract Club of Baneshwor.</label>
+                            </div>
 
                             <button className="form-btn" type="submit" disabled={!isFormValid} data-form-btn>
                                 <ion-icon name="paper-plane"></ion-icon>
