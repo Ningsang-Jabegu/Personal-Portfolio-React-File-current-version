@@ -88,6 +88,11 @@
   --transition-2: 0.5s ease-in-out;
 }
 
+.blur-hide {
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+
 /* ----------------------------------- *\
    #RESET
 \* ----------------------------------- */

@@ -60,7 +60,7 @@ export default function Slidebar() {
                         <div className="contact-info">
                             <p className="contact-title">Phone</p>
 
-                            <a href="tel:+12133522795" className="contact-link" title="This is my primary contact number. Feel free to call me.">+977 (980) 606-0663</a>
+                            <a href="tel:+12133522795" className="contact-link blur-hide" title="Currently I am unavailable in mobile phone.">+977 (980) 606-0663</a>
                         </div>
 
                     </li>
