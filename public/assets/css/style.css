@@ -35,6 +35,11 @@
     hsl(0deg 0% 25%) 0%,
     hsla(0deg 0% 25% / 0%) 50%
   );
+  --border-gradient-onyx-hover: linear-gradient(
+    to top left,
+    hsl(0deg 0% 25%) 0%,
+    hsla(0deg 0% 25% / 0%) 50%
+  );
   --text-gradient-yellow: linear-gradient(
     to right,
     hsl(45deg 100% 72%),
@@ -554,12 +559,35 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  /* text-align: center; */
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
 }
 
 .about-text p {
   margin-bottom: 15px;
 }
 
+.about-tagline {
+  color: var(--vegas-gold);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  line-height: 1.6;
+  font-style: italic;
+  /*make it inline*/
+}
+.about-tagline ion-icon {
+  display: inline-block;
+}
+.read-more-link {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  line-height: 1.6;
+  margin-top: 1em;
+  display: inline;
+}
 /** #service **/
 
 .service {
@@ -583,6 +611,21 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 30px;
+}
+
+.service-item:hover {
+  box-shadow: -5px -5px 6px hsla(0, 0%, 0%, 0.123);
+  background: var(--border-gradient-onyx-hover);
+}
+
+.hover-service-btn:hover {
+  opacity: 0.8;
 }
 
 .service-item::before {
@@ -1797,13 +1840,6 @@ input[type="checkbox"] {
   }
 
   /* service */
-  .service-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 18px;
-    padding: 30px;
-  }
 
   .service-icon-box {
     margin-bottom: 0;
@@ -2133,6 +2169,9 @@ input[type="checkbox"] {
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
+  }
+  .full-width{
+    grid-template-columns: 1fr !important;
   }
 
   /* testimonials */

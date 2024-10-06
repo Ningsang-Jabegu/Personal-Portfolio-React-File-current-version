@@ -1,24 +1,28 @@
 const service_Data = [
     {
-        ionIcon_name: "desktop-outline",
-        serviceTitle: "Web design",
-        serviceText: "The most modern and high-quality design made at a professional level."
+        ionIcon_name: "earth-outline",
+        serviceTitle: "Limbu Culture",
+        serviceText: "Promoting Limbu culture through various initiatives.",
+        link: '/limbu-culture'
     },
     {
-        ionIcon_name: "code-download-outline",
-        serviceTitle: "Web development",
-        serviceText: "High-quality development of sites at the professional level."
+        ionIcon_name: "rocket-outline",
+        serviceTitle: "Tech Passion",
+        serviceText: "Exploring and advocating for the latest in technology.",
+        link: '/tech-passion'
     },
     {
-        ionIcon_name: "color-palette-outline",
-        serviceTitle: "Graphics Design",
-        serviceText: "I make high-quality print and digital design."
+        ionIcon_name: "star-outline",
+        serviceTitle: "Personal Ambitions",
+        serviceText: "Chasing personal goals, targets, aims, and dreams.",
+        link: '/personal-ambitions'
     },
     {
-        ionIcon_name: "images-outline",
-        serviceTitle: "Photography",
-        serviceText: "I make high-quality photos of any category at a professional level."
-    }
+        ionIcon_name: "medal-outline",
+        serviceTitle: "Public Service",
+        serviceText: "Serving the nation through public service contributions.",
+        link: '/public-service'
+    },
 ];
 
 export { service_Data }

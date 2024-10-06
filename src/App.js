@@ -57,13 +57,15 @@ import Blog_34 from './components/pages/blogs/Blog_34';
 import Blog_35 from './components/pages/blogs/Blog_35';
 import Blog_36 from './components/pages/blogs/Blog_36';
 import Blog_37 from './components/pages/blogs/Blog_37';
+import Home from './components/pages/Home';
 function App() {
   const [navTarget, setNavTarget] = useState("About");
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/How-Reading-Books-Makes-You-A-Better-Front-End-Developer" element={<Blog_1 />} />

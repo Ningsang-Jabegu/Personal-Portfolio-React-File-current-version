@@ -1,13 +1,39 @@
-export default function ABOUT_PART() {
-    return (
-        <section class="about-text">
-            <p>
-                I am a passionate and driven individual with a strong background in web development, graphic design, and software engineering. As a co-founder and team lead at Leetmorph Technology Pvt. Ltd., I strive to innovate and deliver creative solutions that meet client needs.
-            </p>
+import { Link } from "react-router-dom";
+import { Btn_Data } from "../data/Btn_Data";
+import SERVICE_PART from "./SERVICE_PART";
 
-            <p>
-                My journey includes hands-on experience in building dynamic websites, designing user-friendly interfaces, and contributing to meaningful projects like the Rotaract Club of Baneshwor. I'm committed to continuous learning and personal growth, aiming to excel in both my technical career and future goals in public service.
+export default function ABOUT_PART({ compIn = 'About' }) {
+    const homeContent = (
+        <p aria-label="Brief introduction and mission statement">
+            I’m Ningsang Jabegu, a web developer, cultural advocate, and future public servant, on a mission to blend technology, culture, and service. My goal is to leave a lasting impact through my work in software development, Yakthung promotion, and eventually, public service {compIn === 'Home' && (
+                <Link to="/about" className="read-more-link" aria-label="Read more about Ningsang Jabegu">...</Link>
+            )}
+        </p>
+    );
+
+    const aboutContent = (
+        <>
+            <p aria-label="Introduction and technical expertise">
+                Hello, I’m Ningsang Jabegu, a web developer with a passion for building dynamic, user-centric websites and mobile applications. I am committed to solving real-world problems through clean, efficient code, whether it's through creating dynamic websites, developing mobile apps for Android and iOS, or crafting desktop applications. As a perfectionist, I strive to deliver flawless and high-performing solutions.
             </p>
+            <p aria-label="Cultural advocacy and Yakthung promotion">
+                Alongside my technical journey, I’m deeply engaged in promoting Yakthung (Limbu) language and culture, currently working towards setting a world record by writing the thickest book in the Yakthung script. This endeavor represents my dedication to preserving and promoting my cultural heritage through innovative projects.
+            </p>
+            <p aria-label="Future aspirations in public service">
+                Beyond the world of technology, I have a long-term vision of contributing to my country as a public servant, with the goal of one day serving as Secretary at the Ministry of Foreign Affairs. My dedication to both technology and public service defines my personal and professional life, and I’m constantly working towards blending these passions for a better future.
+            </p>
+        </>
+    );
+
+    return (
+        <section className="about-text">
+            {compIn === 'Home' ? homeContent : aboutContent}
+            <p className="about-tagline" aria-label="Tagline: Coding culture into the future">
+                <ion-icon name="ribbon-outline" aria-label="Ribbon icon"></ion-icon> Coding culture into the future
+            </p>
+            {compIn === 'About' && (
+                <SERVICE_PART dataFrom={Btn_Data} type='btn' aria-label="Contact Ningsang Jabegu" />
+            )}
         </section>
-    )
+    );
 }

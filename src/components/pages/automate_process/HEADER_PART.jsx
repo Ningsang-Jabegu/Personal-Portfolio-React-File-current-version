@@ -1,4 +1,4 @@
-export default function HEADER_PART({txt}) {
+export default function HEADER_PART({txt, alt}) {
     const text = []
     if(txt.includes('\n')){
         let textArr= txt.split('\n')
@@ -13,8 +13,8 @@ export default function HEADER_PART({txt}) {
         text.push(txt)
     }
     return (
-        <header>
-            <h2 class="h2 article-title">{text}</h2>
+        <header aria-label={alt}>
+            <h2 className="h2 article-title">{text}</h2>
         </header>
     )
 }
