@@ -16,7 +16,7 @@ export default function Slidebar() {
                     <img src="/assets/images/Profile Picture.PNG" alt="Ningsang Jabegu" width="80" />
                 </figure>
 
-                <div class="info-content">
+                <div className="info-content">
                     <h1 className="name" title="Ningsang Jabegu">Ningsang Jabegu</h1>
 
                     <p className="title">Web Master</p>
@@ -60,7 +60,8 @@ export default function Slidebar() {
                         <div className="contact-info">
                             <p className="contact-title">Phone</p>
 
-                            <a href="#" className="contact-link " title="Currently I am unavailable in mobile phone.">+977 *** *******</a>
+                            {/* <a href="#" className="contact-link " title="Currently I am unavailable in mobile phone.">+977 *** *******</a> */}
+                            <p className="contact-link " title="Currently I am unavailable in mobile phone.">+977 *** *******</p>
                         </div>
 
                     </li>
@@ -74,7 +75,7 @@ export default function Slidebar() {
                         <div className="contact-info">
                             <p className="contact-title">Birthday</p>
 
-                            <time datetime="1982-06-23" title={`I am currently ${dateObject.getFullYear() - 2002 } years old.`}>July 17, 2002</time>
+                            <time dateTime="1982-06-23" title={`I am currently ${dateObject.getFullYear() - 2002 } years old.`}>July 17, 2002</time>
                         </div>
 
                     </li>

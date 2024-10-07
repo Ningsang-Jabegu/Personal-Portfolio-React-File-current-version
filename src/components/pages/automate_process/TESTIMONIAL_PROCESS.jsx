@@ -16,21 +16,21 @@ export default function TESTIMONIAL_PROCESS({openModel, setOpenModel, modelData,
     }
     const testimonial_lists = testimonials_Data.map((testimonial, index) => {
         return (
-            <li class="testimonials-item" key={index}>
-                <div class="content-card" data-testimonials-item onClick={() => { handleTestimonialClick(testimonial) }}>
+            <li className="testimonials-item" key={index}>
+                <div className="content-card" data-testimonials-item onClick={() => { handleTestimonialClick(testimonial) }}>
 
-                    <figure class="testimonials-avatar-box">
+                    <figure className="testimonials-avatar-box">
                         <img src={testimonial["imgSrc"]} alt={testimonial["imgAlt"]} width="60" height="80"
                             data-testimonials-avatar />
                     </figure>
 
-                    <h4 class="h4 testimonials-item-title" data-testimonials-title>{testimonial["nameClient"]}</h4>
+                    <h4 className="h4 testimonials-item-title" data-testimonials-title>{testimonial["nameClient"]}</h4>
 
-                    <div class="testimonials-text" data-testimonials-text>
+                    <div className="testimonials-text" data-testimonials-text>
                         <p dangerouslySetInnerHTML={{ __html: testimonial["briefText"] }} />
                     </div>
 
-                    {/* <div class="testimonials-url" data-testimonials-url>
+                    {/* <div className="testimonials-url" data-testimonials-url>
                     Url :
                     <a href={testimonial["url"]} target="_blank">
                         {testimonial["url"]}

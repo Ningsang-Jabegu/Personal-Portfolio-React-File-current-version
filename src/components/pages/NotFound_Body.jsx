@@ -5,7 +5,7 @@ export default function NotFound_Body({ setNavTarget }) {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')
     const [newPage, setNewPage] = useState(`${window.location.href}`)
-    const [yourExperties, setYourExperties] = useState('')
+    // const [yourExperties, setYourExperties] = useState('') // Currently not in use
     const [occupation, setOccupation] = useState('')
     const [referrer, setReferrer] = useState('')
     const [message, setMessage] = useState('')
@@ -52,10 +52,10 @@ export default function NotFound_Body({ setNavTarget }) {
     const isFormValid = [fullname, email, newPage, occupation, referrer, message, termsAccepted].every(Boolean);
 
     return (
-        <article class="notfound  active" data-page="notfound">
+        <article className="notfound  active" data-page="notfound">
             <HEADER_PART txt={`404 \nPage Not Found !`} />
 
-            <section class="about-text">
+            <section className="about-text">
                 <p>
                     As a web master, instructor, and graphic designer based in Kathmandu, Nepal, I specialize in web development and design media. However, despite my expertise in creating web pages, I regret to inform you that <b style={{ color: "#FFC562" }}>the specific page you’re searching for does not exist on my website</b>. I apologize for any inconvenience this may cause.
                 </p>
@@ -74,7 +74,7 @@ export default function NotFound_Body({ setNavTarget }) {
                     {!isSubmitted &&
                         <form action="#" className="form" data-form onSubmit={handleSubmit}>
 
-                            <div class="input-wrapper">
+                            <div className="input-wrapper">
                                 <input type="text" name="fullname" className="form-input" placeholder="Full name" required
                                     data-form-input value={fullname} onChange={e => setFullname(e.target.value)} />
 

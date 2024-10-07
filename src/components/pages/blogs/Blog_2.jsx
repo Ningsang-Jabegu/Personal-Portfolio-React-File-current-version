@@ -19,7 +19,7 @@ export default function Blog_2() {
 
                                 <span className="dot"></span>
 
-                                <time datetime="2023-12-26">Dec 26, 2023</time>
+                                <time dateTime="2023-12-26">Dec 26, 2023</time>
                                 <span className="dot"></span>
 
                                 <p className="author">Ningsang Jabegu</p>

@@ -19,7 +19,7 @@ export default function Blog_35() {
 
                                 <span className="dot"></span>
 
-                                <time datetime="2024-01-28">Jan 28, 2024</time>
+                                <time dateTime="2024-01-28">Jan 28, 2024</time>
                                 <span className="dot"></span>
 
                                 <p className="author">Ningsang Jabegu</p>

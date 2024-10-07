@@ -115,8 +115,8 @@ export default function Portfolio_Body() {
                     <li className={`project-item ${activeFilter === 'Web Design And Development' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="web design and development">
                         <Link to="https://kamalseling.com.np/" target="_blank" rel="noopener noreferrer">
 
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
+                            <figure className="project-img">
+                                <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 

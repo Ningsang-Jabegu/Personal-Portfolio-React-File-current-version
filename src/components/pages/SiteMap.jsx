@@ -7,11 +7,11 @@ export default function SiteMap({ setNavTarget }) {
             <Slidebar />
             <div className="main-content">
                 <Navbar activeLink='' />
-                <article class="notfound  active" data-page="notfound">
+                <article className="notfound  active" data-page="notfound">
 
                 <HEADER_PART txt="Site Map" />
 
-                    <section class="about-text">
+                    <section className="about-text">
                         <p>
                             This is sitemap                </p>
                     </section>

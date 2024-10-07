@@ -10,11 +10,11 @@ export default function TESTIMONIAL_PART() {
         briefText: []
     })
     return (
-        <section class="testimonials">
+        <section className="testimonials">
 
-                <h3 class="h3 testimonials-title">Testimonials</h3>
+                <h3 className="h3 testimonials-title">Testimonials</h3>
 
-                <ul class="testimonials-list has-scrollbar">
+                <ul className="testimonials-list has-scrollbar">
                     {/* {testimonial_lists} */}
                     <TESTIMONIAL_PROCESS openModel = {openModel} setOpenModel = {setOpenModel} modelData = {modelData} setModelData = {setModelData} />
                     <TESTIMONIAL_MODEL_CLICK openModel = {openModel} setOpenModel = {setOpenModel} modelData = {modelData} setModelData = {setModelData} />

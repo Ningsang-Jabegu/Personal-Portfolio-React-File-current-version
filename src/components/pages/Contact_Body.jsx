@@ -48,7 +48,7 @@ export default function Contact_Body() {
 
             <section className="mapbox" data-mapbox>
                 <figure>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2254.1962723408155!2d85.34278966005192!3d27.67986995191101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQwJzQ5LjMiTiA4NcKwMjAnMzguNCJF!5e0!3m2!1sen!2snp!4v1703070341600!5m2!1sen!2snp" width="400" height="300" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title="Google Map pinning my location - Contact Page" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2254.1962723408155!2d85.34278966005192!3d27.67986995191101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQwJzQ5LjMiTiA4NcKwMjAnMzguNCJF!5e0!3m2!1sen!2snp!4v1703070341600!5m2!1sen!2snp" width="400" height="300" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </figure>
             </section>
 
@@ -59,7 +59,7 @@ export default function Contact_Body() {
                     {!isSubmitted &&
                         <form action="#" className="form" data-form onSubmit={handleSubmit}>
 
-                            <div class="input-wrapper">
+                            <div className="input-wrapper">
                                 <input type="text" name="fullname" className="form-input" placeholder="Full name" required
                                     data-form-input value={fullname} onChange={e => setFullname(e.target.value)} />
 
@@ -70,7 +70,7 @@ export default function Contact_Body() {
                                 data-form-input value={message} onChange={e => setMessage(e.target.value)}></textarea>
                             <div className="input-checkbox">
                                 <input type="checkbox" name="racBMember" className="form-input" id="racBMember"
-                                    data-form-input value={racBMember} onChange={e => setracBMember('Yes')} /> <label for="racBMember" style={{ color: "#fff", fontWeight: "normal" }}> Are you the member of Rotaract Club of Baneshwor.</label>
+                                    data-form-input value={racBMember} onChange={e => setracBMember('Yes')} /> <label htmlFor="racBMember" style={{ color: "#fff", fontWeight: "normal" }}> Are you the member of Rotaract Club of Baneshwor.</label>
                             </div>
 
                             <button className="form-btn" type="submit" disabled={!isFormValid} data-form-btn>
@@ -100,7 +100,7 @@ export default function Contact_Body() {
                         </div>
                     )}
 
-                    <style jsx>{`
+                    <style>{`
                 .contact-form-main-content {
                     position: relative;
                 }
