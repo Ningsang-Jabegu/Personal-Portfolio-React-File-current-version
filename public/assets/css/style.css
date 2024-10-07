@@ -612,11 +612,13 @@ main {
   box-shadow: var(--shadow-2);
   z-index: 1;
   cursor: pointer;
+}
+.service-item a{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 18px;
-  padding: 30px;
+  padding: 7px;
 }
 
 .service-item:hover {

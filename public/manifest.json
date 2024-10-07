@@ -3,17 +3,17 @@
   "name": "Ningsang Jabegu's Personal Website",
   "icons": [
     {
-      "src": "./assets/images/Profile Picture.PNG",
+      "src": "./assets/images/my-profile-picture/Profile Picture.PNG",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "./assets/images/Profile Picture.PNG",
+      "src": "./assets/images/my-profile-picture/Profile Picture.PNG",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./assets/images/Profile Picture.PNG",
+      "src": "./assets/images/my-profile-picture/Profile Picture.PNG",
       "type": "image/png",
       "sizes": "512x512"
     }

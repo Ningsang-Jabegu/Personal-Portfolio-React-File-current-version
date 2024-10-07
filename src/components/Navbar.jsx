@@ -4,11 +4,12 @@ import React from 'react';
 export default function Navbar({ activeLink }) {
     const navigationDirect_data = ['Home', 'About', 'Resume', 'Portfolio', 'Blog', 'Contact'];
     const navbar_list = navigationDirect_data.map((navItem, index) => (
-        <Link to={`/${navItem.toLowerCase()}`} key={index}>
-            <li className="navbar-item">
+
+        <li className="navbar-item" key={index}>
+            <Link to={`/${navItem.toLowerCase()}`}>
                 <button id="about-btn" className={`navbar-link ${activeLink === navItem ? 'active' : ''}`} data-nav-link>{navItem}</button>
-            </li>
-        </Link>
+            </Link>
+        </li>
     ));
     return (
         <nav className="navbar">

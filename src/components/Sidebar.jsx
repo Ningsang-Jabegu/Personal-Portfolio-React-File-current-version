@@ -2,19 +2,26 @@ import { useState } from "react"
 import { Link } from "react-router-dom";
 export default function Slidebar() {
     const [showDetail, setShowDetail] = useState(false)
-    const handleSidebarClick = ()=> {
+    const handleSidebarClick = () => {
         setShowDetail(!showDetail)
     }
     const dateObject = new Date();
     // sidebar
-    return(
-        <aside className={`sidebar ${showDetail ? "active":""}`} data-sidebar>
+    return (
+        <aside className={`sidebar ${showDetail ? "active" : ""}`} data-sidebar>
 
             <div className="sidebar-info">
 
                 <figure className="avatar-box">
-                    <img src="/assets/images/Profile Picture.PNG" alt="Ningsang Jabegu" width="80" />
+                    <img
+                        src="/assets/images/my-profile-picture/Profile%20Picture.PNG"
+                        srcSet="/assets/images/my-profile-picture/Profile%20Picture-80w.PNG 80w, /assets/images/my-profile-picture/Profile%20Picture-160w.PNG 160w, /assets/images/my-profile-picture/Profile%20Picture-320w.PNG 320w"
+                        sizes="(max-width: 600px) 80px, (max-width: 1200px) 160px, 320px"
+                        alt="Ningsang Jabegu"
+                        width="80"
+                    />
                 </figure>
+
 
                 <div className="info-content">
                     <h1 className="name" title="Ningsang Jabegu">Ningsang Jabegu</h1>
@@ -22,7 +29,7 @@ export default function Slidebar() {
                     <p className="title">Web Master</p>
                 </div>
 
-                <button className="info_more-btn" onClick={()=>{handleSidebarClick()}} data-sidebar-btn>
+                <button className="info_more-btn" onClick={() => { handleSidebarClick() }} data-sidebar-btn>
                     <span>Show Contacts</span>
 
                     <ion-icon name="chevron-down"></ion-icon>
@@ -45,7 +52,7 @@ export default function Slidebar() {
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
 
-                            <a href="mailto:ningsanglimbu5203@gmail.com" style={{textOverflow : "ellipsis"}}
+                            <a href="mailto:ningsanglimbu5203@gmail.com" style={{ textOverflow: "ellipsis" }}
                                 className="contact-link" title="ningsanglimbu5203@gmail.com">ningsanglimbu5203@gmail.com</a>
                         </div>
 
@@ -75,7 +82,7 @@ export default function Slidebar() {
                         <div className="contact-info">
                             <p className="contact-title">Birthday</p>
 
-                            <time dateTime="1982-06-23" title={`I am currently ${dateObject.getFullYear() - 2002 } years old.`}>July 17, 2002</time>
+                            <time dateTime="1982-06-23" title={`I am currently ${dateObject.getFullYear() - 2002} years old.`}>July 17, 2002</time>
                         </div>
 
                     </li>

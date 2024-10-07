@@ -3,9 +3,8 @@ import { service_Data } from "../data/Service_Data";
 
 export default function SERVICE_PART({ dataFrom = service_Data, type = 'none' }) {
     const service_list = type === 'none' ? dataFrom.map((service, index) => (
-        <Link to={service.link} key={index}>
-            <li className="service-item" key={index}>
-
+        <li className="service-item" key={index}>
+            <Link to={service.link}>
                 <div className="service-icon-box">
                     <ion-icon name={service.ionIcon_name}></ion-icon>
                 </div>
@@ -17,13 +16,11 @@ export default function SERVICE_PART({ dataFrom = service_Data, type = 'none' })
                         {service.serviceText}
                     </p>
                 </div>
-
-            </li>
-        </Link>
+            </Link>
+        </li>
     )) : dataFrom.map((service, index) => service.pageIn === 'About' ? (
-        <Link to={service.link} key={index}>
-            <li className="service-item hover-service-btn" key={index} style={{ margin: '2rem auto 0', display: 'flex', justifyContent: 'center' }}>
-
+        <li className="service-item hover-service-btn" key={index} style={{ margin: '2rem auto 0', display: 'flex', justifyContent: 'center' }}>
+            <Link to={service.link}>
                 <div className="service-icon-box">
                     <ion-icon name="mail-outline"></ion-icon>
                 </div>
@@ -35,11 +32,10 @@ export default function SERVICE_PART({ dataFrom = service_Data, type = 'none' })
                         {service.text}
                     </p>
                 </div>
-
-            </li>
-        </Link>
+            </Link>
+        </li>
     ) : (
-    <></>
+        <></>
     ));
 
     return (
