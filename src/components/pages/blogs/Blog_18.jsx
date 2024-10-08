@@ -26,7 +26,7 @@ export default function Blog_18() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-18.jpg" alt="Learning a JavaScript Framework for Faster Web Development"
+                                <img src="/src/assets/images/blog/blog-18.jpg" alt="Learning a JavaScript Framework for Faster Web Development"
                                     loading="lazy" />
                             </figure>
 

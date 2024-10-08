@@ -84,7 +84,7 @@ export default function Portfolio_Body() {
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-1.png" alt="Fastblur Production" loading="lazy" />
+                                <img src="/src/assets/images/project/project-1.png" alt="Fastblur Production" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">FastBlur Production</h3>
@@ -102,7 +102,7 @@ export default function Portfolio_Body() {
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-2.png" alt="Kirat Yakthung Thegimhang Chobegu Sajumlung" loading="lazy" />
+                                <img src="/src/assets/images/project/project-2.png" alt="Kirat Yakthung Thegimhang Chobegu Sajumlung" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Kirat Yakthung Thegimhang Chobegu Sajumlung</h3>
@@ -120,7 +120,7 @@ export default function Portfolio_Body() {
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-3.png" alt="Kamal Seling" loading="lazy" />
+                                <img src="/src/assets/images/project/project-3.png" alt="Kamal Seling" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Kamal Seling</h3>
@@ -138,7 +138,7 @@ export default function Portfolio_Body() {
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-bootcamp-1.png" alt="Front End Web Development Bootcamp" loading="lazy" />
+                                <img src="/src/assets/images/project/project-bootcamp-1.png" alt="Front End Web Development Bootcamp" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">60 Days Front End Web Development Bootcamp 2023</h3>
@@ -149,14 +149,14 @@ export default function Portfolio_Body() {
                     </li>
 
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-1.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-1.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-1.jpg" alt="Shree Krishna Janma Aasthami" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-1.jpg" alt="Shree Krishna Janma Aasthami" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Shree Krishna Janma Aasthami </h3>
@@ -166,14 +166,14 @@ export default function Portfolio_Body() {
                         </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-2.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-2.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-2.jpg" alt="Heartfelt tribute" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-2.jpg" alt="Heartfelt tribute" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Heartfelt tribute - 1</h3>
@@ -183,14 +183,14 @@ export default function Portfolio_Body() {
                         </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-3.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-3.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-3.jpg" alt="Banner for Facebook Coverpage" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-3.jpg" alt="Banner for Facebook Coverpage" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Banner for Facebook Coverpage</h3>
@@ -200,14 +200,14 @@ export default function Portfolio_Body() {
                         </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-5.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-5.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-5.jpg" alt="Poem Bannar" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-5.jpg" alt="Poem Bannar" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Poem Bannar</h3>
@@ -217,14 +217,14 @@ export default function Portfolio_Body() {
                         </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-10.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-10.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-10.jpg" alt="Facebook Meme Sample" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-10.jpg" alt="Facebook Meme Sample" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Facebook Meme Sample</h3>
@@ -234,14 +234,14 @@ export default function Portfolio_Body() {
                         </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-11.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-11.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-11.jpg" alt="Canva Advertisment Post Design" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-11.jpg" alt="Canva Advertisment Post Design" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Canva Advertisment Post Design</h3>
@@ -251,14 +251,14 @@ export default function Portfolio_Body() {
                         </Link>
                     </li>
                     <li className={`project-item ${activeFilter === 'Graphic Design' || activeFilter === 'All' ? "active" : ""}`} data-filter-item data-category="graphic design">
-                        <Link to="/assets/images/project/project-graphicDesign-12.jpg" target="_blank" rel="noopener noreferrer">
+                        <Link to="/src/assets/images/project/project-graphicDesign-12.jpg" target="_blank" rel="noopener noreferrer">
 
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <ion-icon name="eye-outline"></ion-icon>
                                 </div>
 
-                                <img src="./assets/images/project/project-graphicDesign-12.jpg" alt="Haritalika Teej Design" loading="lazy" />
+                                <img src="/src/assets/images/project/project-graphicDesign-12.jpg" alt="Haritalika Teej Design" loading="lazy" />
                             </figure>
 
                             <h3 className="project-title">Haritalika Teej Design</h3>

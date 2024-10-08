@@ -26,7 +26,7 @@ export default function Blog_7() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/assets/images/blog/blog-7.jpg" alt="Why Debugging in Front-End Development is Crucial"
+                                <img src="/src/assets/images/blog/blog-7.jpg" alt="Why Debugging in Front-End Development is Crucial"
                                     loading="lazy" />
                             </figure>
 

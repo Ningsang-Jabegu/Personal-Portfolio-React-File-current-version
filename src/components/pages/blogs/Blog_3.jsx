@@ -26,7 +26,7 @@ export default function Blog_3() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/assets/images/blog/blog-3.jpg" alt="Is a Bachelor’s Degree Necessary to Master Frontend Web Development?"
+                                <img src="/src/assets/images/blog/blog-3.jpg" alt="Is a Bachelor’s Degree Necessary to Master Frontend Web Development?"
                                     loading="lazy" />
                             </figure>
 

@@ -7,7 +7,7 @@ export default function InnovationConsultant_Body() {
                 <h2 className="h2 article-title">Experience</h2>
             </header>
             <div className="education-main">
-                <img src="/assets/images/experience/innovation-consultant.png" className="img-center" alt="Innovation Consultant Banner" style={{ borderRadius: "1em" }} />
+                <img src="/src/assets/images/experience/innovation-consultant.png" className="img-center" alt="Innovation Consultant Banner" style={{ borderRadius: "1em" }} />
                 <br />
                 <h3> Innovation Consultant</h3>
                 <p>2022 Aug — 2022 Nov</p>

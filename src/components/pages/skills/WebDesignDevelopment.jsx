@@ -12,7 +12,7 @@ export default function WebDesignDevelopment() {
                 <article className="Experience active" data-page="Experience">
                     <HEADER_PART txt="Skill"/>
                     <div className="education-main">
-                        <img src="/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
+                        <img src="/src/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
                         <br />
                         <h3> Web Design and Development</h3>
                         <p>The most modern and high-quality design made at a professional level.</p>

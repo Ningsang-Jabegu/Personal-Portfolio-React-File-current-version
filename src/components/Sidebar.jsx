@@ -14,8 +14,8 @@ export default function Slidebar() {
 
                 <figure className="avatar-box">
                     <img
-                        src="/assets/images/my-profile-picture/Profile%20Picture.PNG"
-                        srcSet="/assets/images/my-profile-picture/Profile%20Picture-80w.PNG 80w, /assets/images/my-profile-picture/Profile%20Picture-160w.PNG 160w, /assets/images/my-profile-picture/Profile%20Picture-320w.PNG 320w"
+                        src="/src/assets/images/my-profile-picture/Profile%20Picture.PNG"
+                        srcSet="/src/assets/images/my-profile-picture/Profile%20Picture-80w.PNG 80w, /src/assets/images/my-profile-picture/Profile%20Picture-160w.PNG 160w, /src/assets/images/my-profile-picture/Profile%20Picture-320w.PNG 320w"
                         sizes="(max-width: 600px) 80px, (max-width: 1200px) 160px, 320px"
                         alt="Ningsang Jabegu"
                         width="80"

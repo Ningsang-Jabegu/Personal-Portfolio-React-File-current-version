@@ -26,7 +26,7 @@ export default function Blog_31() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-31.jpg" alt="Defining the Scope of a Client’s Project as a New Web Developer"
+                                <img src="/src/assets/images/blog/blog-31.jpg" alt="Defining the Scope of a Client’s Project as a New Web Developer"
                                     loading="lazy" />
                             </figure>
 

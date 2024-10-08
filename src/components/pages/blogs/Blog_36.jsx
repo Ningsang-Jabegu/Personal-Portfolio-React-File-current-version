@@ -26,7 +26,7 @@ export default function Blog_36() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-36.jpg" alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
+                                <img src="/src/assets/images/blog/blog-36.jpg" alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
                                     loading="lazy" />
                             </figure>
 

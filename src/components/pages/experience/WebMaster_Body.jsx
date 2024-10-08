@@ -7,7 +7,7 @@ export default function WebMaster_Body() {
                 <h2 className="h2 article-title">Experience</h2>
             </header>
             <div className="education-main">
-                <img src="/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
+                <img src="/src/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
                 <br />
                 <h3> Web Master</h3>
                 <p>2019 May — 2022 July</p>

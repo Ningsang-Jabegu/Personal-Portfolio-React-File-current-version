@@ -26,7 +26,7 @@ export default function Blog_23() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-23.jpg" alt="Soft Skills and Their Benefits for Web Developers"
+                                <img src="/src/assets/images/blog/blog-23.jpg" alt="Soft Skills and Their Benefits for Web Developers"
                                     loading="lazy" />
                             </figure>
 

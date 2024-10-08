@@ -26,7 +26,7 @@ export default function Blog_14() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-14.jpg" alt="The Importance of Hands-On Experience in Web Development Learning"
+                                <img src="/src/assets/images/blog/blog-14.jpg" alt="The Importance of Hands-On Experience in Web Development Learning"
                                     loading="lazy" />
                             </figure>
 

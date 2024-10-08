@@ -7,7 +7,7 @@ export default function FrontEndWebDeveloper_Body() {
                 <h2 className="h2 article-title">Experience</h2>
             </header>
             <div className="education-main">
-                <img src="/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
+                <img src="/src/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
                 <br />
                 <h3> Front End Web Developer</h3>
                 <p>2022 Dec — Present</p>

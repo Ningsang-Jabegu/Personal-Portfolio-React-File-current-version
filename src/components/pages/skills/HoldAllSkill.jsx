@@ -22,7 +22,7 @@ export default function HoldAllSkill({ select }) {
     const skillContent = Object.entries(skill_Data).map(([skillName, skill], index) => (
         <div className={`skill-main projects ${select !== skillName ? "hide" : ""}`}>
 
-            <img src="/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
+            <img src="/src/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
             <br />
             <h3>{skillName}</h3>
             <br />

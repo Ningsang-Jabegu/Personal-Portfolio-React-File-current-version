@@ -26,7 +26,7 @@ export default function Blog_26() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-26.jpg" alt="Why Front-End Development is a High-Demand Skill in IT"
+                                <img src="/src/assets/images/blog/blog-26.jpg" alt="Why Front-End Development is a High-Demand Skill in IT"
                                     loading="lazy" />
                             </figure>
 

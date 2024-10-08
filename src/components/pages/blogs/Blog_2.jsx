@@ -26,7 +26,7 @@ export default function Blog_2() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/assets/images/blog/blog-2.jpg" alt="Just Watching Video Tutorials from YouTube Doesn’t Make You an Experienced Web Developer"
+                                <img src="/src/assets/images/blog/blog-2.jpg" alt="Just Watching Video Tutorials from YouTube Doesn’t Make You an Experienced Web Developer"
                                     loading="lazy" />
                             </figure>
 

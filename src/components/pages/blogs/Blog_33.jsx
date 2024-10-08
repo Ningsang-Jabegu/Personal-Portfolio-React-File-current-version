@@ -26,7 +26,7 @@ export default function Blog_33() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-33.jpg" alt="The Impact of Effective Communication on Accelerating Web Development"
+                                <img src="/src/assets/images/blog/blog-33.jpg" alt="The Impact of Effective Communication on Accelerating Web Development"
                                     loading="lazy" />
                             </figure>
 

@@ -26,7 +26,7 @@ export default function Blog_35() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-35.jpg" alt="The Importance of Seeking Feedback as a Web Developer"
+                                <img src="/src/assets/images/blog/blog-35.jpg" alt="The Importance of Seeking Feedback as a Web Developer"
                                     loading="lazy" />
                             </figure>
 

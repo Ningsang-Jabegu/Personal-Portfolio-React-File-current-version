@@ -26,7 +26,7 @@ export default function Blog_10() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-10.jpg" alt="Staying Up-to-Date as a Front-End Developer"
+                                <img src="/src/assets/images/blog/blog-10.jpg" alt="Staying Up-to-Date as a Front-End Developer"
                                     loading="lazy" />
                             </figure>
 

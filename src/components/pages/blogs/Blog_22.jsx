@@ -26,7 +26,7 @@ export default function Blog_22() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-22.jpg" alt="The Importance of Staying Updated as a Web Developer"
+                                <img src="/src/assets/images/blog/blog-22.jpg" alt="The Importance of Staying Updated as a Web Developer"
                                     loading="lazy" />
                             </figure>
 

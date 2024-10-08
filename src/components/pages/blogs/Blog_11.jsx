@@ -26,7 +26,7 @@ export default function Blog_11() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-11.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                <img src="/src/assets/images/blog/blog-11.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
                                     loading="lazy" />
                             </figure>
 

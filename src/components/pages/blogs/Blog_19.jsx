@@ -26,7 +26,7 @@ export default function Blog_19() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-19.jpg" alt="Understanding Responsive Design as a Web Beginner"
+                                <img src="/src/assets/images/blog/blog-19.jpg" alt="Understanding Responsive Design as a Web Beginner"
                                     loading="lazy" />
                             </figure>
 

@@ -26,7 +26,7 @@ export default function Blog_8() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-8.jpg" alt="Why Consistency Matters in Becoming a Better Front-End Developer"
+                                <img src="/src/assets/images/blog/blog-8.jpg" alt="Why Consistency Matters in Becoming a Better Front-End Developer"
                                     loading="lazy" />
                             </figure>
 

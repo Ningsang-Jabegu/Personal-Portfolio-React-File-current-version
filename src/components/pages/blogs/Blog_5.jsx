@@ -26,7 +26,7 @@ export default function Blog_5() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/assets/images/blog/blog-5.jpg" alt="Why to Become a Front-End Developer While Starting a Career in IT"
+                                <img src="/src/assets/images/blog/blog-5.jpg" alt="Why to Become a Front-End Developer While Starting a Career in IT"
                                     loading="lazy" />
                             </figure>
 

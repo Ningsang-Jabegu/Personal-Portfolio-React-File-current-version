@@ -26,7 +26,7 @@ export default function Blog_20() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/assets/images/blog/blog-20.jpg" alt="Why Version Control Systems are Essential in the Daily Life of a Web Developer"
+                                <img src="/src/assets/images/blog/blog-20.jpg" alt="Why Version Control Systems are Essential in the Daily Life of a Web Developer"
                                     loading="lazy" />
                             </figure>
 
