@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog36Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_36() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_36() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-36.jpg" alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
+                                <img src={Blog36Thumbnail} alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
                                     loading="lazy" />
                             </figure>
 

@@ -1,6 +1,8 @@
+import { Testimonial1Thumbnail, Testimonial2Thumbnail, Testimonial3Thumbnail, Testimonial4Thumbnail } from "../../importImage/SiteImages";
+
 const testimonials_Data = [
     {
-        imgSrc: "/src/assets/images/testimonial 1.jpg",
+        imgSrc: Testimonial1Thumbnail,
         imgAlt: "Bikash Makaju",
         nameClient: "Bikash Makaju",
         briefText:
@@ -11,7 +13,7 @@ const testimonials_Data = [
         url: "https://fastblurpro.com/"
     },
     {
-        imgSrc: "/src/assets/images/testimonial 2.jpg",
+        imgSrc: Testimonial2Thumbnail,
         imgAlt: "Kumar Chobegu",
         nameClient: "Kumar Chobegu",
         briefText:
@@ -23,7 +25,7 @@ const testimonials_Data = [
         url: "https://chobegusajumlung.org.np/"
     },
     {
-        imgSrc: "/src/assets/images/testimonial 3.jpg",
+        imgSrc: Testimonial3Thumbnail,
         imgAlt: "Kamal Seling",
         nameClient: "Kamal Seling",
         briefText:
@@ -32,7 +34,7 @@ const testimonials_Data = [
         url: "https://kamalseling.com.np/"
     },
     {
-        imgSrc: "/src/assets/images/testimonial 4.jpg",
+        imgSrc: Testimonial4Thumbnail,
         imgAlt: "Zenith English School",
         nameClient: "Zenith English School",
         briefText:

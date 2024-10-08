@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog7Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_7() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_7() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/src/assets/images/blog/blog-7.jpg" alt="Why Debugging in Front-End Development is Crucial"
+                                <img src={Blog7Thumbnail} alt="Why Debugging in Front-End Development is Crucial"
                                     loading="lazy" />
                             </figure>
 

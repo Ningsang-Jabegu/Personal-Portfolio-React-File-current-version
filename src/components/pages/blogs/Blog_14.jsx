@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog14Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_14() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_14() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-14.jpg" alt="The Importance of Hands-On Experience in Web Development Learning"
+                                <img src={Blog14Thumbnail} alt="The Importance of Hands-On Experience in Web Development Learning"
                                     loading="lazy" />
                             </figure>
 

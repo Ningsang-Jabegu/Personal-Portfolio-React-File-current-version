@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HEADER_PART from "./automate_process/HEADER_PART";
+import { Blog10Thumbnail, Blog11Thumbnail, Blog12Thumbnail, Blog13Thumbnail, Blog14Thumbnail, Blog15Thumbnail, Blog16Thumbnail, Blog17Thumbnail, Blog18Thumbnail, Blog19Thumbnail, Blog1Thumbnail, Blog20Thumbnail, Blog21Thumbnail, Blog22Thumbnail, Blog23Thumbnail, Blog24Thumbnail, Blog25Thumbnail, Blog26Thumbnail, Blog27Thumbnail, Blog28Thumbnail, Blog29Thumbnail, Blog2Thumbnail, Blog30Thumbnail, Blog31Thumbnail, Blog32Thumbnail, Blog33Thumbnail, Blog34Thumbnail, Blog35Thumbnail, Blog36Thumbnail, Blog37Thumbnail, Blog3Thumbnail, Blog4Thumbnail, Blog5Thumbnail, Blog6Thumbnail, Blog7Thumbnail, Blog8Thumbnail, Blog9Thumbnail } from "../importImage/SiteImages";
 
 export default function Blog_Body() {
     return (
@@ -15,7 +16,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Handling-User-Interactions-as-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-37.jpg" alt="Handling User Interactions as a Web Developer"
+                                <img src={Blog37Thumbnail} alt="Handling User Interactions as a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -42,7 +43,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Ensuring-Cross-Browser-Compatibility:-A-Must-for-Every-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-36.jpg" alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
+                                <img src={Blog36Thumbnail} alt="Ensuring Cross-Browser Compatibility: A Must for Every Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -69,7 +70,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Importance-of-Seeking-Feedback-as-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-35.jpg" alt="The Importance of Seeking Feedback as a Web Developer"
+                                <img src={Blog35Thumbnail} alt="The Importance of Seeking Feedback as a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -96,7 +97,7 @@ export default function Blog_Body() {
                         <Link to='/blog/How-Developers-Can-Deliver-Quality-Work'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-34.jpg" alt="How Developers Can Deliver Quality Work"
+                                <img src={Blog34Thumbnail} alt="How Developers Can Deliver Quality Work"
                                     loading="lazy" />
                             </figure>
 
@@ -123,7 +124,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Impact-of-Effective-Communication-on-Accelerating-Web-Development'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-33.jpg" alt="The Impact of Effective Communication on Accelerating Web Development"
+                                <img src={Blog33Thumbnail} alt="The Impact of Effective Communication on Accelerating Web Development"
                                     loading="lazy" />
                             </figure>
 
@@ -150,7 +151,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Planning-a-Web-Development-Project'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-32.jpg" alt="Planning a Web Development Project"
+                                <img src={Blog32Thumbnail} alt="Planning a Web Development Project"
                                     loading="lazy" />
                             </figure>
 
@@ -177,7 +178,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Defining-the-Scope-of-a-Client’s-Project-as-a-New-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-31.jpg" alt="Defining the Scope of a Client’s Project as a New Web Developer"
+                                <img src={Blog31Thumbnail}alt="Defining the Scope of a Client’s Project as a New Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -204,7 +205,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Understanding-Client-Needs:-The-Key-to-Faster-Web-Development'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-30.jpg" alt="Understanding Client Needs: The Key to Faster Web Development"
+                                <img src={Blog30Thumbnail} alt="Understanding Client Needs: The Key to Faster Web Development"
                                     loading="lazy" />
                             </figure>
 
@@ -231,7 +232,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Front-End-Development:-The-Gateway-to-Full-Stack'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-29.jpg" alt="Understanding Client Needs: The Key to Faster Web Development"
+                                <img src={Blog29Thumbnail} alt="Understanding Client Needs: The Key to Faster Web Development"
                                     loading="lazy" />
                             </figure>
 
@@ -258,7 +259,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Flexibility-of-Being-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-28.jpg" alt="The Flexibility of Being a Web Developer"
+                                <img src={Blog28Thumbnail} alt="The Flexibility of Being a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -285,7 +286,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Why-the-Web-Development-Community-is-Seeking-Creative-and-Problem-Solving-Individuals'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-27.jpg" alt="The Flexibility of Being a Web Developer"
+                                <img src={Blog27Thumbnail} alt="The Flexibility of Being a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -312,7 +313,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Why-Front-End-Development-is-a-High-Demand-Skill-in-IT'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-26.jpg" alt="Why Front-End Development is a High-Demand Skill in IT"
+                                <img src={Blog26Thumbnail} alt="Why Front-End Development is a High-Demand Skill in IT"
                                     loading="lazy" />
                             </figure>
 
@@ -339,7 +340,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Successful-Developer’s-Mantra:-Never-Stop-Learning'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-25.jpg" alt="The Successful Developer’s Mantra: Never Stop Learning"
+                                <img src={Blog25Thumbnail} alt="The Successful Developer’s Mantra: Never Stop Learning"
                                     loading="lazy" />
                             </figure>
 
@@ -366,7 +367,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Power-of-a-Portfolio:-Flourishing-as-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-24.jpg" alt="The Power of a Portfolio: Flourishing as a Web Developer"
+                                <img src={Blog24Thumbnail} alt="The Power of a Portfolio: Flourishing as a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -393,7 +394,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Soft-Skills-and-Their-Benefits-for-Web-Developers'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-23.jpg" alt="Soft Skills and Their Benefits for Web Developers"
+                                <img src={Blog23Thumbnail} alt="Soft Skills and Their Benefits for Web Developers"
                                     loading="lazy" />
                             </figure>
 
@@ -420,7 +421,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Importance-of-Staying-Updated-as-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-22.jpg" alt="The Importance of Staying Updated as a Web Developer"
+                                <img src={Blog22Thumbnail} alt="The Importance of Staying Updated as a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -447,7 +448,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Debugging-and-Testing-in-Programming- A-Real-Life-Problem-Solving-Tool'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-21.jpg" alt="Debugging and Testing in Programming: A Real-Life Problem-Solving Tool"
+                                <img src={Blog21Thumbnail} alt="Debugging and Testing in Programming: A Real-Life Problem-Solving Tool"
                                     loading="lazy" />
                             </figure>
 
@@ -474,7 +475,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Why-Version-Control-Systems-are-Essential-in-the-Daily-Life-of-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-20.jpg" alt="Why Version Control Systems are Essential in the Daily Life of a Web Developer"
+                                <img src={Blog20Thumbnail} alt="Why Version Control Systems are Essential in the Daily Life of a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -501,7 +502,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Understanding-Responsive-Design-as-a-Web-Beginner'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-19.jpg" alt="Understanding Responsive Design as a Web Beginner"
+                                <img src={Blog19Thumbnail} alt="Understanding Responsive Design as a Web Beginner"
                                     loading="lazy" />
                             </figure>
 
@@ -528,7 +529,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Learning-a-JavaScript-Framework-for-Faster-Web-Development'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-18.jpg" alt="Learning a JavaScript Framework for Faster Web Development"
+                                <img src={Blog18Thumbnail} alt="Learning a JavaScript Framework for Faster Web Development"
                                     loading="lazy" />
                             </figure>
 
@@ -555,7 +556,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Master-the-Basics-to-Flourish-in-the-World-of-Web-Development'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-17.jpg" alt="Master the Basics to Flourish in the World of Web Development"
+                                <img src={Blog17Thumbnail} alt="Master the Basics to Flourish in the World of Web Development"
                                     loading="lazy" />
                             </figure>
 
@@ -582,7 +583,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Need-for-Continuous-Learning-in-Web-Development'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-16.jpg" alt="The Need for Continuous Learning in Web Development"
+                                <img src={Blog16Thumbnail} alt="The Need for Continuous Learning in Web Development"
                                     loading="lazy" />
                             </figure>
 
@@ -609,7 +610,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Role-of-Problem-Solving-in-the-Daily-Life-of-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-15.jpg" alt="The Role of Problem-Solving in the Daily Life of a Web Developer"
+                                <img src={Blog15Thumbnail} alt="The Role of Problem-Solving in the Daily Life of a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -636,7 +637,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Importance-of-Hands-On-Experience-in-Web-Development-Learning'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-14.jpg" alt="The Limitations of Passive Learning as a Web Developer"
+                                <img src={Blog14Thumbnail} alt="The Limitations of Passive Learning as a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -663,7 +664,7 @@ export default function Blog_Body() {
                         <Link to='/blog/The-Limitations-of-Passive-Learning-as-a-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-13.jpg" alt="The Limitations of Passive Learning as a Web Developer"
+                                <img src={Blog13Thumbnail} alt="The Limitations of Passive Learning as a Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -690,7 +691,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Improving-Communication-Skills-as-a-Frontend-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-12.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                <img src={Blog12Thumbnail} alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
                                     loading="lazy" />
                             </figure>
 
@@ -717,7 +718,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Enhancing-Problem-Solving-Skills:-A Comprehensive-Guide'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-11.jpg" alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
+                                <img src={Blog11Thumbnail} alt="Enhancing Problem-Solving Skills: A Comprehensive Guide"
                                     loading="lazy" />
                             </figure>
 
@@ -744,7 +745,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Staying-Up-to-Date-as-a-Front-End-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-10.jpg" alt="Staying Up-to-Date as a Front-End Developer"
+                                <img src={Blog10Thumbnail} alt="Staying Up-to-Date as a Front-End Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -772,7 +773,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Broadening-Your-Horizons-as-a-Front-End-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-9.jpg" alt="Broadening Your Horizons as a Front-End Web Developer"
+                                <img src={Blog9Thumbnail} alt="Broadening Your Horizons as a Front-End Web Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -801,7 +802,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Why-Consistency-Matters-in-Becoming-a-Better-Front-End-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-8.jpg" alt="Why Consistency Matters in Becoming a Better Front-End Developer"
+                                <img src={Blog8Thumbnail} alt="Why Consistency Matters in Becoming a Better Front-End Developer"
                                     loading="lazy" />
                             </figure>
 
@@ -830,7 +831,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Why-Debugging-in-Front-End-Development-is-Crucial'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-7.jpg" alt="Why Debugging in Front-End Development is Crucial"
+                                <img src={Blog7Thumbnail} alt="Why Debugging in Front-End Development is Crucial"
                                     loading="lazy" />
                             </figure>
 
@@ -859,7 +860,7 @@ export default function Blog_Body() {
                         <Link to='/blog/How-to-Start-Your-First-Project-for-a-Client'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-6.jpg" alt="How to Start Your First Project for a Client"
+                                <img src={Blog6Thumbnail} alt="How to Start Your First Project for a Client"
                                     loading="lazy" />
                             </figure>
 
@@ -888,7 +889,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Why-to-Become-a-Front-End-Developer-While-Starting-a-Career-in-IT'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-5.jpg" alt="Why to Become a Front-End Developer While Starting a Career in IT"
+                                <img src={Blog5Thumbnail} alt="Why to Become a Front-End Developer While Starting a Career in IT"
                                     loading="lazy" />
                             </figure>
 
@@ -917,7 +918,7 @@ export default function Blog_Body() {
                         <Link to='/blog/How-to-Flourish-as-a-Front-End-Web-Developer?'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-4.jpg" alt="How to Flourish as a Front-End Web Developer?"
+                                <img src={Blog4Thumbnail} alt="How to Flourish as a Front-End Web Developer?"
                                     loading="lazy" />
                             </figure>
 
@@ -946,7 +947,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Is-a-Bachelor’s-Degree-Necessary-to-Master-Frontend-Web-Development?'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-3.jpg" alt="Is a Bachelor’s Degree Necessary to Master Frontend Web Development?"
+                                <img src={Blog3Thumbnail} alt="Is a Bachelor’s Degree Necessary to Master Frontend Web Development?"
                                     loading="lazy" />
                             </figure>
 
@@ -976,7 +977,7 @@ export default function Blog_Body() {
                         <Link to='/blog/Just-Watching-Video-Tutorials-from-YouTube-Doesn’t-Make-You-an-Experienced-Web-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-2.jpg" alt="Design conferences in 2022"
+                                <img src={Blog2Thumbnail} alt="Design conferences in 2022"
                                     loading="lazy" />
                             </figure>
 
@@ -1006,7 +1007,7 @@ export default function Blog_Body() {
                         <Link to='/blog/How-Reading-Books-Makes-You-A-Better-Front-End-Developer'>
 
                             <figure className="blog-banner-box">
-                                <img src="/src/assets/images/blog/blog-1.jpg" alt="Design conferences in 2022"
+                                <img src={Blog1Thumbnail} alt="Design conferences in 2022"
                                     loading="lazy" />
                             </figure>
 

@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog20Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_20() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_20() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-20.jpg" alt="Why Version Control Systems are Essential in the Daily Life of a Web Developer"
+                                <img src={Blog20Thumbnail} alt="Why Version Control Systems are Essential in the Daily Life of a Web Developer"
                                     loading="lazy" />
                             </figure>
 

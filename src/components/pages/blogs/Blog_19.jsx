@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog19Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_19() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_19() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-19.jpg" alt="Understanding Responsive Design as a Web Beginner"
+                                <img src={Blog19Thumbnail} alt="Understanding Responsive Design as a Web Beginner"
                                     loading="lazy" />
                             </figure>
 

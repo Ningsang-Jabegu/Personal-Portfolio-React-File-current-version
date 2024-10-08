@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog13Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_13() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_13() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-13.jpg" alt="The Limitations of Passive Learning as a Web Developer"
+                                <img src={Blog13Thumbnail} alt="The Limitations of Passive Learning as a Web Developer"
                                     loading="lazy" />
                             </figure>
 

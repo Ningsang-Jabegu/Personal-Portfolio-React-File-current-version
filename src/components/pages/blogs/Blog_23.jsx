@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog23Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_23() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_23() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-23.jpg" alt="Soft Skills and Their Benefits for Web Developers"
+                                <img src={Blog23Thumbnail} alt="Soft Skills and Their Benefits for Web Developers"
                                     loading="lazy" />
                             </figure>
 

@@ -1,5 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom";
+import ProfilePicture from "../assets/images/my-profile-picture/Profile Picture.PNG"
+import { Profilepicture160w, Profilepicture320w, Profilepicture80w, ProfilepictureTransparent } from "./importImage/SiteImages";
 export default function Slidebar() {
     const [showDetail, setShowDetail] = useState(false)
     const handleSidebarClick = () => {
@@ -14,8 +16,8 @@ export default function Slidebar() {
 
                 <figure className="avatar-box">
                     <img
-                        src="/src/assets/images/my-profile-picture/Profile%20Picture.PNG"
-                        srcSet="/src/assets/images/my-profile-picture/Profile%20Picture-80w.PNG 80w, /src/assets/images/my-profile-picture/Profile%20Picture-160w.PNG 160w, /src/assets/images/my-profile-picture/Profile%20Picture-320w.PNG 320w"
+                        src={ProfilepictureTransparent}
+                        srcSet= {`${Profilepicture80w} 80w, ${Profilepicture160w} 160w, ${Profilepicture320w} 320w`}
                         sizes="(max-width: 600px) 80px, (max-width: 1200px) 160px, 320px"
                         alt="Ningsang Jabegu"
                         width="80"
@@ -126,7 +128,7 @@ export default function Slidebar() {
                     </li>
 
                     <li className="social-item" >
-                        <Link to="https://www.linkedin.com/in/ningsang-jabegu-45b545216/" target="_blank" rel="noopener noreferrer" className="social-link">
+                        <Link to="https://www.linkedin.com/in/ningsang-jabegu/" target="_blank" rel="noopener noreferrer" className="social-link">
                             <ion-icon name="logo-linkedin"></ion-icon>
                         </Link>
                     </li>

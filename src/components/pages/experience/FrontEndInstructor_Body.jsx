@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
+import { ExperienceFrontendwebinstructor } from "../../importImage/SiteImages";
 export default function FrontEndInstructor_Body() {
     return (
         <article className="Experience active" data-page="Experience">
@@ -7,7 +8,7 @@ export default function FrontEndInstructor_Body() {
                 <h2 className="h2 article-title">Experience</h2>
             </header>
             <div className="education-main">
-                <img src="/src/assets/images/experience/front-end-web-instructor.png" className="img-center" alt="Front End Web Instructor Banner" style={{ borderRadius: "1em" }} />
+                <img src={ExperienceFrontendwebinstructor} className="img-center" alt="Front End Web Instructor Banner" style={{ borderRadius: "1em" }} />
                 <br />
                 <h3> Front End Web Instructor</h3>
                 <p>2022 Aug — 2022 Nov</p>

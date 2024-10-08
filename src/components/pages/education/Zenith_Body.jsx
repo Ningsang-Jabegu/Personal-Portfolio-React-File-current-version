@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { EducationArnikoNeb, EducationZenithLogo } from "../../importImage/SiteImages";
 export default function Zenith_Body() {
     return (
         <article className="Arniko active" data-page="Arniko">
@@ -6,7 +7,7 @@ export default function Zenith_Body() {
                 <h2 className="h2 article-title">ZHS</h2>
             </header>
             <div className="education-main">
-                <img src="/src/assets/images/education/zenith-logo.png" className="img-center" alt="Zenith High School Official Logo" style={{borderRadius: "1em"}} />
+                <img src={EducationZenithLogo} className="img-center" alt="Zenith High School Official Logo" style={{borderRadius: "1em"}} />
                 <br />
                 <h3> Zenith High School</h3>
                 <p>2015 — 2018</p>
@@ -20,7 +21,7 @@ export default function Zenith_Body() {
                 <h3> Affiliated To:</h3><br />
                 <div className="education-flex education-center education-figure">
                     <figure>
-                        <img src="/src/assets/images/education/Arniko-essentials/neb.png" alt="National Examination Board's Logo" />
+                        <img src={EducationArnikoNeb} alt="National Examination Board's Logo" />
                         <figcaption><Link className="a" to="https://www.neb.gov.np/" target="_blank">National Examination Board<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Government Agency For School Level Education</p>
                     </figure>

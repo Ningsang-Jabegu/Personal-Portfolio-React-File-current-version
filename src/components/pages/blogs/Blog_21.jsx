@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog21Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_21() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_21() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/src/assets/images/blog/blog-21.jpg" alt="Debugging and Testing in Programming: A Real-Life Problem-Solving Tool"
+                                <img src={Blog21Thumbnail} alt="Debugging and Testing in Programming: A Real-Life Problem-Solving Tool"
                                     loading="lazy" />
                             </figure>
 

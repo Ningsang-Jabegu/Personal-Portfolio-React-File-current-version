@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog27Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_27() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_27() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-27.jpg" alt="Why the Web Development Community is Seeking Creative and Problem-Solving Individuals"
+                                <img src={Blog27Thumbnail} alt="Why the Web Development Community is Seeking Creative and Problem-Solving Individuals"
                                     loading="lazy" />
                             </figure>
 

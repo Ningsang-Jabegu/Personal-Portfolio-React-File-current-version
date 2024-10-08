@@ -21,7 +21,7 @@ export default function TESTIMONIAL_MODEL_CLICK({openModel, setOpenModel, modelD
                             <img src={modelData["imgSrc"]} alt={modelData["imgAlt"]} width="80" data-modal-img />
                         </figure>
 
-                        <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+                        <img src="/src/assets/images/decoration/quote-1.svg" alt="quote icon" />
                     </div>
 
                     <div className="modal-content">

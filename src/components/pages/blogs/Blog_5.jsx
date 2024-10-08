@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog5Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_5() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_5() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/src/assets/images/blog/blog-5.jpg" alt="Why to Become a Front-End Developer While Starting a Career in IT"
+                                <img src={Blog5Thumbnail} alt="Why to Become a Front-End Developer While Starting a Career in IT"
                                     loading="lazy" />
                             </figure>
 

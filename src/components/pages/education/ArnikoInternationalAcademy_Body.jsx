@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { EducationArnikoLogo, EducationArnikoAuxfin, EducationArnikoBiticon, EducationArnikoKrafter, EducationArnikoNeb, EducationArnikoRobotechnepal, EducationAscolTu } from "../../importImage/SiteImages";
 export default function ArnikoInternationalAcademy_Body() {
     return (
         <article className="Arniko active" data-page="Arniko">
@@ -6,7 +7,7 @@ export default function ArnikoInternationalAcademy_Body() {
                 <h2 className="h2 article-title">AISS</h2>
             </header>
             <div className="education-main">
-                <img src="/src/assets/images/education/arniko-logo.png" className="img-center" alt="Amrit Campus Official Logo" style={{borderRadius: "1em"}} />
+                <img src={EducationArnikoLogo} className="img-center" alt="Amrit Campus Official Logo" style={{borderRadius: "1em"}} />
                 <br />
                 <h3> Arniko International Secondary School & College</h3>
                 <p>2018 — 2020</p>
@@ -20,12 +21,12 @@ export default function ArnikoInternationalAcademy_Body() {
                 <h3> Affiliated To:</h3><br />
                 <div className="education-flex education-center education-figure">
                     <figure>
-                        <img src="/src/assets/images/education/Arniko-essentials/neb.png" alt="National Examination Board's Logo" />
+                        <img src={EducationArnikoNeb} alt="National Examination Board's Logo" />
                         <figcaption><Link className="a" to="https://www.neb.gov.np/" target="_blank">National Examination Board<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Government Agency For School Level Education</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/ASCOL-essentials/tu.png" alt="Tribhuvan University's Logo" />
+                        <img src={EducationAscolTu} alt="Tribhuvan University's Logo" />
                         <figcaption><Link className="a" to="https://cdcsit.edu.np/" target="_blank">Tribhuvan University<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Nepal's First Public University</p>
                     </figure>
@@ -35,17 +36,17 @@ export default function ArnikoInternationalAcademy_Body() {
                 <h3> IT Partner</h3><br />
                 <div className="education-flex education-center education-figure">
                 <figure>
-                        <img src="/src/assets/images/education/Arniko-essentials/krafter.png" alt="Krafter's Logo" />
+                        <img src={EducationArnikoKrafter} alt="Krafter's Logo" />
                         <figcaption><Link className="a" to="https://krafters.tech/" target="_blank">Krafters<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Software company</p>
                     </figure>
                 <figure>
-                        <img src="/src/assets/images/education/Arniko-essentials/bitIconic.png" alt="Bit Iconic's Logo" />
+                        <img src={EducationArnikoBiticon} alt="Bit Iconic's Logo" />
                         <figcaption><Link className="a" to="https://www.facebook.com/biticonic/" target="_blank">Bit Iconic<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Computer company</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/Arniko-essentials/auxfin.png" alt="Auxfin's Logo" />
+                        <img src={EducationArnikoAuxfin} alt="Auxfin's Logo" />
                         <figcaption><Link className="a" to="https://www.auxfin.com/" target="_blank">Auxfin<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Software company in Patan, Nepal</p>
                     </figure>
@@ -55,7 +56,7 @@ export default function ArnikoInternationalAcademy_Body() {
                 <h3> Robotics Partner</h3><br />
                 <div className="education-flex education-center education-figure">
                     <figure>
-                        <img src="/src/assets/images/education/Arniko-essentials/roboTechNepal.png" alt="Tribhuvan University's Logo" />
+                        <img src={EducationArnikoRobotechnepal} alt="Tribhuvan University's Logo" />
                         <figcaption><Link className="a" to="https://www.facebook.com/ROBOTECHNEPAL/" target="_blank">RoboTechNepal<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Software company in Patan, Nepal</p>
                     </figure>

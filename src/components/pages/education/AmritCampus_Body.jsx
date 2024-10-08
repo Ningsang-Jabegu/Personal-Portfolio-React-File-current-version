@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
+import { EducationAscolLogo, EducationAscolTu } from "../../importImage/SiteImages";
 export default function AmritCampus_Body() {
     return (
         <article className="ASCOL active" data-page="ASCOL">
@@ -7,7 +8,7 @@ export default function AmritCampus_Body() {
                 <h2 className="h2 article-title">ASCOL</h2>
             </header>
             <div className="education-main">
-                <img src="/src/assets/images/education/ascol-logo.png" className="img-center" alt="Amrit Campus Official Logo" style={{ borderRadius: "1em" }} />
+                <img src={EducationAscolLogo} className="img-center" alt="Amrit Campus Official Logo" style={{ borderRadius: "1em" }} />
                 <br />
                 <h3> Amrit Science Campus</h3>
                 <p>2022 — running</p>
@@ -22,7 +23,7 @@ export default function AmritCampus_Body() {
                 <h3> Constitute Campus of</h3><br />
                 <div className="education-flex education-center education-figure">
                     <figure>
-                        <img src="/src/assets/images/education/ASCOL-essentials/tu.png" alt="Tribhuvan University's Logo" />
+                        <img src={EducationAscolTu} alt="Tribhuvan University's Logo" />
                         <figcaption><Link className="a" to="https://cdcsit.edu.np/" target="_blank">Tribhuvan University<ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Nepal's First Public University</p>
                     </figure>

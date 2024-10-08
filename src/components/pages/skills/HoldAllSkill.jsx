@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import { skill_Data } from "../data/Skill_Data"
 import HEADER_PART from "../automate_process/HEADER_PART"
 import moment from "moment"
+import { ExperienceFrontendwebdeveloper } from "../../importImage/SiteImages"
 
 export default function HoldAllSkill({ select }) {
     const year = 2024;
@@ -22,7 +23,7 @@ export default function HoldAllSkill({ select }) {
     const skillContent = Object.entries(skill_Data).map(([skillName, skill], index) => (
         <div className={`skill-main projects ${select !== skillName ? "hide" : ""}`}>
 
-            <img src="/src/assets/images/experience/front-end-web-developer.png" className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
+            <img src={ExperienceFrontendwebdeveloper} className="img-center" alt="Front End Web Developer Banner" style={{ borderRadius: "1em" }} />
             <br />
             <h3>{skillName}</h3>
             <br />

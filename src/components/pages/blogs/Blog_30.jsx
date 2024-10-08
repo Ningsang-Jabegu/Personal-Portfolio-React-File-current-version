@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog30Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_30() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_30() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-30.jpg" alt="Understanding Client Needs: The Key to Faster Web Development"
+                                <img src={Blog30Thumbnail} alt="Understanding Client Needs: The Key to Faster Web Development"
                                     loading="lazy" />
                             </figure>
 

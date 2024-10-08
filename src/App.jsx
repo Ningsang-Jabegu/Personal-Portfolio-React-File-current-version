@@ -59,13 +59,15 @@ import Blog_36 from './components/pages/blogs/Blog_36';
 import Blog_37 from './components/pages/blogs/Blog_37';
 import Home from './components/pages/Home';
 function App() {
-  const [navTarget, setNavTarget] = useState("Home");
-  console.log('skill_Data')
+  // const [navTarget, setNavTarget] = useState("Home");
+  // console.log(navTarget)
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/index.html" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/How-Reading-Books-Makes-You-A-Better-Front-End-Developer" element={<Blog_1 />} />

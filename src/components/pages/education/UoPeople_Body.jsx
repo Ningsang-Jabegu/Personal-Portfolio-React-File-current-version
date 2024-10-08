@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
+import { EducationUopeopleBppe, EducationUopeopleDeac, EducationUopeopleHavard, EducationUopeopleIbo, EducationUopeopleLogo, EducationUopeopleMcgill, EducationUopeopleNyu, EducationUopeopleUniversityofEdinburgh } from "../../importImage/SiteImages";
 export default function UoPoeple_Body() {
     const [isMobile, setIstMobile] = useState(window.innerWidth <= 580)
     useEffect(() => {
@@ -18,7 +19,7 @@ export default function UoPoeple_Body() {
                 <h2 className="h2 article-title">UoPeople</h2>
             </header>
             <div className="education-main">
-                <img src="/src/assets/images/education/UoPeople-logo.png" className="img-center" alt="University of The People's Official Logo" style={{borderRadius: "1em"}} />
+                <img src={EducationUopeopleLogo} className="img-center" alt="University of The People's Official Logo" style={{borderRadius: "1em"}} />
                 <br />
                 <h3> University of The People</h3>
                 <p>2023 — running</p>
@@ -33,12 +34,12 @@ export default function UoPoeple_Body() {
                 <h3> Approved and Accredited by</h3><br />
                 <div className="education-flex education-center education-figure">
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/bppe.png" alt="Bureau for Private Postsecondary Education Logo" />
+                        <img src={EducationUopeopleBppe} alt="Bureau for Private Postsecondary Education Logo" />
                         <figcaption><Link className="a" to="https://www.bppe.ca.gov/" target="_blank">Bureau for Private Postsecondary Education <ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>California State agency</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/deac.png" alt="Distance Education Accrediting Commission Logo" />
+                        <img src={EducationUopeopleDeac} alt="Distance Education Accrediting Commission Logo" />
                         <figcaption><Link className="a" to="https://www.deac.org/" target="_blank">Distance Education Accrediting Commission <ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Private Non Profit Organization</p>
                     </figure>
@@ -46,27 +47,27 @@ export default function UoPoeple_Body() {
                 <h3> In Collaboration with</h3><br />
                 <div className="education-flex education-center education-figure uni-lists">
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/nyu.png" alt="New York University Logo" />
+                        <img src={EducationUopeopleNyu} alt="New York University Logo" />
                         <figcaption><Link className="a" to="https://www.nyu.edu/" target="_blank">New York University <ion-icon name="open-outline"></ion-icon></Link> </figcaption>
                         <p>New York, USA <span className="dot"></span> Private Not-For-Profit Institution</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/University-of-Edinburgh.png" alt="University of Edinburgh Logo" />
+                        <img src={EducationUopeopleUniversityofEdinburgh} alt="University of Edinburgh Logo" />
                         <figcaption><Link className="a" to="https://www.ed.ac.uk/" target="_blank">University of Edinburgh <ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Edinburgh, Scotland <span className="dot"></span> Public University</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/ibo.png" alt="International Baccalaureate Organization Logo" />
+                        <img src={EducationUopeopleIbo} alt="International Baccalaureate Organization Logo" />
                         <figcaption><Link className="a" to="https://www.ibo.org/" target="_blank">International Baccalaureate Organization <ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Geneva, Switzerland</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/havard.png" alt="Havard Business School Online Logo" />
+                        <img src={EducationUopeopleHavard} alt="Havard Business School Online Logo" />
                         <figcaption><Link className="a" to="https://online.hbs.edu/" target="_blank">Havard Business School Online <ion-icon name="open-outline"></ion-icon> </Link></figcaption>
                         <p> Boston, Massachusetts, USA <span className="dot"></span> Private Research University</p>
                     </figure>
                     <figure>
-                        <img src="/src/assets/images/education/UoPeople-essentials/mcgill.png" alt="McGill University" />
+                        <img src={EducationUopeopleMcgill} alt="McGill University" />
                         <figcaption><Link className="a" to="https://www.mcgill.ca/" target="_blank">McGill University <ion-icon name="open-outline"></ion-icon></Link></figcaption>
                         <p>Montreal, Canada <span className="dot"></span> Public University</p>
                     </figure>

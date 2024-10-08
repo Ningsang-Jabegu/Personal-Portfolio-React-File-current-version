@@ -1,18 +1,20 @@
+import { Client1Thumbnail, Client2Thumbnail, Client3Thumbnail, Client4Thumbnail } from "../../importImage/SiteImages";
+
 const client_Data = [
     {
-        imgSrc: "/src/assets/images/client/client_1.avif",
+        imgSrc: Client1Thumbnail,
         imgAlt: "Fastblur Production",
     },
     {
-        imgSrc: "/src/assets/images/client/client_2.png",
+        imgSrc: Client2Thumbnail,
         imgAlt: "Kirat Yakthung Thegimhang Chobegu Sajumlung (new)",
     },
     {
-        imgSrc: "/src/assets/images/client/client_3.png",
+        imgSrc: Client3Thumbnail,
         imgAlt: "Kirat Yakthung Thegimhang Chobegu Sajumlung (old)",
     },
     {
-        imgSrc: "/src/assets/images/client/client_4.png",
+        imgSrc: Client4Thumbnail,
         imgAlt: "Zenith English School",
     },
 ];

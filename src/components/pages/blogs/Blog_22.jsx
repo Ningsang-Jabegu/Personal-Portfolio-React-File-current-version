@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog22Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_22() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_22() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-22.jpg" alt="The Importance of Staying Updated as a Web Developer"
+                                <img src={Blog22Thumbnail} alt="The Importance of Staying Updated as a Web Developer"
                                     loading="lazy" />
                             </figure>
 

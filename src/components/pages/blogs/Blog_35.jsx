@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog35Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_35() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_35() {
                             </div>
                             <br />
                             <figure className="blog-banner-box inside indivisual">
-                                <img src="/src/assets/images/blog/blog-35.jpg" alt="The Importance of Seeking Feedback as a Web Developer"
+                                <img src={Blog35Thumbnail} alt="The Importance of Seeking Feedback as a Web Developer"
                                     loading="lazy" />
                             </figure>
 

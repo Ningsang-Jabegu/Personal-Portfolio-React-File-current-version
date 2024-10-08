@@ -1,5 +1,6 @@
 import Slidebar from "../../Sidebar"
 import Navbar from "../../Navbar"
+import { Blog3Thumbnail } from "../../importImage/SiteImages"
 export default function Blog_3() {
     return (
         <>
@@ -26,7 +27,7 @@ export default function Blog_3() {
                             </div>
                             <br />
                             <figure className="blog-banner-box indivisual">
-                                <img src="/src/assets/images/blog/blog-3.jpg" alt="Is a Bachelor’s Degree Necessary to Master Frontend Web Development?"
+                                <img src={Blog3Thumbnail} alt="Is a Bachelor’s Degree Necessary to Master Frontend Web Development?"
                                     loading="lazy" />
                             </figure>
 
