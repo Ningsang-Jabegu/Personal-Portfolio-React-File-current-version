@@ -112,19 +112,56 @@
 
 a {
   text-decoration: none;
+  color: inherit;
+  opacity: .7;
+  display: inline;
 }
 
-li {
+.bulletAllow a {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 1em 0;
+}
+
+hr {
+  margin: 0 0 1em;
+}
+
+.bulletAllow ul {
+  margin-left: 2rem;
+}
+
+li:not(.bulletAllow li) {
   list-style: none;
 }
 
-img,
+img:not(
+  .clients-item a img,
+),
 ion-icon,
-a,
+a:not(
+  .bulletAllow a, 
+  .read-more-link, 
+  .service-item a
+  ),
 button,
 time,
-span {
+span,
+.bulletAllow .quote {
   display: block;
+}
+
+.bulletAllow .quote {
+  padding-left: 1rem;
+  margin: 1rem 0 1rem 1.5rem;
+  border-left: 2px solid var(--orange-yellow-crayola);
+}
+
+.important {
+  color: var(--orange-yellow-crayola);
+  opacity: .6;
 }
 
 button {
@@ -172,6 +209,22 @@ article {
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
+}
+
+.website-policy {
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.website-policy a:hover {
+  text-decoration: underline;
 }
 
 .separator {

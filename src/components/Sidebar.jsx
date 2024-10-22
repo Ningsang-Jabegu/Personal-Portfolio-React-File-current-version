@@ -17,7 +17,7 @@ export default function Slidebar() {
                 <figure className="avatar-box">
                     <img
                         src={ProfilepictureTransparent}
-                        srcSet= {`${Profilepicture80w} 80w, ${Profilepicture160w} 160w, ${Profilepicture320w} 320w`}
+                        srcSet={`${Profilepicture80w} 80w, ${Profilepicture160w} 160w, ${Profilepicture320w} 320w`}
                         sizes="(max-width: 600px) 80px, (max-width: 1200px) 160px, 320px"
                         alt="Ningsang Jabegu"
                         width="80"
@@ -54,7 +54,7 @@ export default function Slidebar() {
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
 
-                            <a href="mailto:ningsanglimbu5203@gmail.com" style={{ textOverflow: "ellipsis" }}
+                            <a href="mailto:ningsanglimbu5203@gmail.com" style={{ textOverflow: "ellipsis", display: "block", overflow: "hidden", whiteSpace: "nowrap" }}
                                 className="contact-link" title="ningsanglimbu5203@gmail.com">ningsanglimbu5203@gmail.com</a>
                         </div>
 
@@ -140,7 +140,11 @@ export default function Slidebar() {
                     </li>
 
                 </ul>
-
+                <div className="website-policy">
+                    <Link to='/legal-notice'>Legal Notice</Link>
+                    <Link to='/privacy-notice'>Privacy Notice</Link>
+                    <Link to='/terms-and-conditions'>Terms and Conditions</Link>
+                </div>
             </div>
 
         </aside>

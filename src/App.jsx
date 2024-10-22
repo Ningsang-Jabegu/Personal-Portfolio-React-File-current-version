@@ -6,8 +6,6 @@ import Contact from "./components/pages/Contact";
 import Blog from "./components/pages/Blog";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
-import Navbar from "./components/Navbar";
-import CombineSection from "./components/CombineSection";
 import Blog_1 from './components/pages/blogs/Blog_1';
 import NotFound from './components/pages/NotFound';
 import Blog_2 from './components/pages/blogs/Blog_2';
@@ -35,7 +33,6 @@ import Blog_14 from './components/pages/blogs/Blog_14';
 import Blog_15 from './components/pages/blogs/Blog_15';
 import Blog_16 from './components/pages/blogs/Blog_16';
 import HoldAllSkill from './components/pages/skills/HoldAllSkill';
-import { skill_Data } from './components/pages/data/Skill_Data';
 import Blog_17 from './components/pages/blogs/Blog_17';
 import Blog_18 from './components/pages/blogs/Blog_18';
 import Blog_19 from './components/pages/blogs/Blog_19';
@@ -58,6 +55,9 @@ import Blog_35 from './components/pages/blogs/Blog_35';
 import Blog_36 from './components/pages/blogs/Blog_36';
 import Blog_37 from './components/pages/blogs/Blog_37';
 import Home from './components/pages/Home';
+import Legal_Notice from './components/pages/Legal_Notice';
+import TnC from './components/pages/TnC';
+import Privacy_Notice from './components/pages/Privacy_Notice';
 function App() {
   // const [navTarget, setNavTarget] = useState("Home");
   // console.log(navTarget)
@@ -123,6 +123,9 @@ function App() {
           <Route path='/resume/skill/Front-End-Web-Dev.-Mentoring' element={<HoldAllSkill select="Front-End Web Dev. Mentoring" />}/>
           <Route path='/resume/skill/Wordpress' element={<HoldAllSkill select="Wordpress"/>}/>
           <Route path='/sitemap' element={<SiteMap />} />
+          <Route path='/legal-notice' element={<Legal_Notice />} />
+          <Route path='/terms-and-conditions' element={<TnC/>} />
+          <Route path='/privacy-notice' element={<Privacy_Notice />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
