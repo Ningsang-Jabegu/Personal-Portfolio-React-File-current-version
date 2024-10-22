@@ -20,7 +20,7 @@ export default function TESTIMONIAL_PROCESS({openModel, setOpenModel, modelData,
                 <div className="content-card" data-testimonials-item onClick={() => { handleTestimonialClick(testimonial) }}>
 
                     <figure className="testimonials-avatar-box">
-                        <img src={testimonial["imgSrc"]} alt={testimonial["imgAlt"]} width="60" height="80"
+                        <img src={testimonial["imgSrc"]} alt={testimonial["imgAlt"]} width="61" height="61"
                             data-testimonials-avatar />
                     </figure>
 
