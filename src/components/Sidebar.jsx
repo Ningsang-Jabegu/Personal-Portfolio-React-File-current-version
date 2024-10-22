@@ -141,9 +141,9 @@ export default function Slidebar() {
 
                 </ul>
                 <div className="website-policy">
-                    <Link to='/legal-notice'>Legal Notice</Link>
-                    <Link to='/privacy-notice'>Privacy Notice</Link>
-                    <Link to='/terms-and-conditions'>Terms and Conditions</Link>
+                    <Link to='/legal-notice'>Legal Notice <ion-icon name="open-outline"></ion-icon></Link>
+                    <Link to='/privacy-notice'>Privacy Notice <ion-icon name="open-outline"></ion-icon></Link>
+                    <Link to='/terms-and-conditions'>Terms and Conditions <ion-icon name="open-outline"></ion-icon></Link>
                 </div>
             </div>
 

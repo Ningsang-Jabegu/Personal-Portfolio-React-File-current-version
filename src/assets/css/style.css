@@ -227,6 +227,9 @@ article {
   text-decoration: underline;
 }
 
+.avatar-box img {
+  display: block;
+}
 .separator {
   width: 100%;
   height: 1px;
