@@ -129,19 +129,6 @@ function App() {
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      {/* <main>
-        <Slidebar />
-        <div className="main-content">
-          <Navbar setNavTarget={setNavTarget} />
-          {navTarget === 'About' && <About />}
-          {navTarget === 'Blog' && <Blog />}
-          {navTarget === 'Contact' && <Contact />}
-          {navTarget === 'Portfolio' && <Portfolio />}
-          {navTarget === 'Resume' && <Resume />}
-        </div>
-      </main> */}
-      {/* <CombineSection navTarget = {navTarget} setNavTarget = {setNavTarget}/> */}
-      {/* <About setNavTarget = {setNavTarget}/> */}
     </>
   );
 }
