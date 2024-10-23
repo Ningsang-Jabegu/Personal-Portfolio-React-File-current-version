@@ -22,7 +22,7 @@ export default function TnC_Body({ setNavTarget }) {
                 </p>
                 <h2>4. Use of Services</h2>
                 <p>
-                    You may interact with the services offered on this website, including filling out forms such as the <strong className="important">Contact Form</strong> and <strong sclassName="important">Request to Add New Webpage Form</strong>. You agree that:
+                    You may interact with the services offered on this website, including filling out forms such as the <strong className="important">Contact Form</strong> and <strong className="important">Request to Add New Webpage Form</strong>. You agree that:
                     <ul>
                         <li>All information you provide is accurate and complete.</li>
                         <li>You will not submit any content or requests that violate the laws of the Government of Nepal or infringe on the rights of third parties.</li>

@@ -110,7 +110,7 @@
   box-sizing: border-box;
 }
 
-a {
+a:not(.clients-item a) {
   text-decoration: none;
   color: inherit;
   opacity: .7;
@@ -766,6 +766,10 @@ main {
 .testimonials-avatar-box img {
   border-radius: inherit;
   border: 2px solid var(--orange-yellow-crayola);
+  /* width: clamp(50px, 1vw, 80px); */
+  max-height: 80px;
+  min-height: 50px;
+  height: auto;
 }
 
 .testimonials-item-title {
@@ -954,6 +958,7 @@ main {
   scroll-snap-align: start;
   background-color: var(--white-2);
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .clients-item a {
@@ -966,14 +971,14 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
-  border-radius: 14px;
+  /* border-radius: 14px; */
 }
 
-.clients-item:hover img {
+/* .clients-item:hover img {
   filter: grayscale(0);
-}
+} */
 
 /* ----------------------------------- *\
    #RESUME

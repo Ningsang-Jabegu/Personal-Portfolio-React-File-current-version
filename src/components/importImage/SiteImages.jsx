@@ -43,7 +43,7 @@ export {Blog1Thumbnail, Blog2Thumbnail, Blog3Thumbnail, Blog4Thumbnail, Blog5Thu
         Blog31Thumbnail, Blog32Thumbnail, Blog33Thumbnail, Blog34Thumbnail, Blog35Thumbnail, Blog36Thumbnail, Blog37Thumbnail}
 
 // Client Images
-import Client1Thumbnail from '../../assets/images/client/client_1.avif'
+import Client1Thumbnail from '../../assets/images/client/client_1.png'
 import Client2Thumbnail from '../../assets/images/client/client_2.png'
 import Client3Thumbnail from '../../assets/images/client/client_3.png'
 import Client4Thumbnail from '../../assets/images/client/client_4.png'
