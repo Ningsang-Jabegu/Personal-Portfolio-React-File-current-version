@@ -114,7 +114,11 @@ a:not(.clients-item a) {
   text-decoration: none;
   color: inherit;
   opacity: .7;
-  display: inline;
+  /* display: inline; */
+}
+
+a:not(.clients-item a):hover {
+  text-decoration: underline;
 }
 
 .bulletAllow a {
@@ -157,6 +161,7 @@ span,
   padding-left: 1rem;
   margin: 1rem 0 1rem 1.5rem;
   border-left: 2px solid var(--orange-yellow-crayola);
+  display: block;
 }
 
 .important {
@@ -1754,7 +1759,7 @@ input[type="checkbox"] {
   /** client **/
 
   .clients-item {
-    min-width: calc(33.33% - 10px);
+    /* min-width: calc(33.33% - 10px); */
   }
 
   /** #PORTFOLIO, BLOG **/
@@ -2167,6 +2172,13 @@ input[type="checkbox"] {
   .form-btn {
     width: max-content;
     margin-left: auto;
+  }
+}
+
+@media (min-width: 763px) and (max-width: 1023px ) {
+  .project-list,
+  .blog-posts-list {
+    grid-template-columns: 1fr !important;
   }
 }
 
